@@ -1,0 +1,22 @@
+[jev] when2call: 10 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/dry/jev/when2call
+  [jev/when2call] 10/10 errors=0 3.1 items/s
+[jev] banking77: 10 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/dry/jev/banking77
+  [jev/banking77] 10/10 errors=0 3.3 items/s
+[jev] clinc: 10 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/dry/jev/clinc
+  [jev/clinc] 10/10 errors=0 3.2 items/s
+[jev] injection: 10 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/dry/jev/injection
+  [jev/injection] 10/10 errors=0 3.3 items/s
+[jev] halueval: 10 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/dry/jev/halueval
+  [jev/halueval] 10/10 errors=0 3.3 items/s
+[jev] when2call__labeled: 10 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/dry/jev/when2call__labeled
+  [jev/when2call] 10/10 errors=0 3.2 items/s
+[jev] injection__paraphrase: 10 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/dry/jev/injection__paraphrase
+  [jev/injection] 10/10 errors=0 3.1 items/s
+      "ordinal_mae": null,
+      "price_per_1000_decisions_usd": 0.014561400000000002,
+      "schema_validity": 1.0,
+      "schema_validity_strict": 1.0
+    }
+  },
+  "version": "jevbench-v1"
+}

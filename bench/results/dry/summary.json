@@ -1,0 +1,758 @@
+{
+ "banking77": {
+  "decider": {
+   "n": 10,
+   "errors": 0,
+   "accuracy": 0.9,
+   "accuracy 95% CI": [
+    0.7,
+    1.0
+   ],
+   "macro-F1": 0.8,
+   "ECE": 0.13493000000000005,
+   "Brier": 0.10742755699999998,
+   "selective": [
+    {
+     "threshold": 0.8,
+     "coverage": 0.8,
+     "accuracy": 1.0,
+     "n": 8
+    },
+    {
+     "threshold": 0.9,
+     "coverage": 0.7,
+     "accuracy": 1.0,
+     "n": 7
+    },
+    {
+     "threshold": 0.95,
+     "coverage": 0.5,
+     "accuracy": 1.0,
+     "n": 5
+    }
+   ],
+   "client_ms": {
+    "p50": 419.65,
+    "p95": 434.25,
+    "p99": 438.93
+   },
+   "server_ms": {
+    "p50": 132.25,
+    "p95": 133.2435,
+    "p99": 133.3047
+   },
+   "input_tokens/item": 990.7,
+   "USD per 1k decisions": 0.029551361777777778,
+   "models seen": [
+    "strands-decider-2B-hobson-v19"
+   ],
+   "extras": {}
+  },
+  "jev": {
+   "n": 10,
+   "errors": 0,
+   "accuracy": 0.9,
+   "accuracy 95% CI": [
+    0.7,
+    1.0
+   ],
+   "macro-F1": 0.8,
+   "ECE": 0.14399999999999996,
+   "Brier": 0.18597999999999998,
+   "selective": [
+    {
+     "threshold": 0.8,
+     "coverage": 0.9,
+     "accuracy": 0.8888888888888888,
+     "n": 9
+    },
+    {
+     "threshold": 0.9,
+     "coverage": 0.8,
+     "accuracy": 1.0,
+     "n": 8
+    },
+    {
+     "threshold": 0.95,
+     "coverage": 0.8,
+     "accuracy": 1.0,
+     "n": 8
+    }
+   ],
+   "client_ms": {
+    "p50": 296.55,
+    "p95": 363.91999999999996,
+    "p99": 369.104
+   },
+   "server_ms": {
+    "p50": null,
+    "p95": null,
+    "p99": null
+   },
+   "input_tokens/item": 1687.7,
+   "USD per 1k decisions": 0.0708834,
+   "models seen": [
+    "jev-1.13.0"
+   ],
+   "extras": {}
+  }
+ },
+ "clinc": {
+  "decider": {
+   "n": 10,
+   "errors": 0,
+   "accuracy": 0.8,
+   "accuracy 95% CI": [
+    0.5,
+    1.0
+   ],
+   "macro-F1": 0.6666666666666666,
+   "ECE": 0.11131000000000003,
+   "Brier": 0.23031339999999995,
+   "selective": [
+    {
+     "threshold": 0.8,
+     "coverage": 0.7,
+     "accuracy": 1.0,
+     "n": 7
+    },
+    {
+     "threshold": 0.9,
+     "coverage": 0.7,
+     "accuracy": 1.0,
+     "n": 7
+    },
+    {
+     "threshold": 0.95,
+     "coverage": 0.6,
+     "accuracy": 1.0,
+     "n": 6
+    }
+   ],
+   "client_ms": {
+    "p50": 504.95,
+    "p95": 522.16,
+    "p99": 531.232
+   },
+   "server_ms": {
+    "p50": 216.245,
+    "p95": 217.4525,
+    "p99": 217.8665
+   },
+   "input_tokens/item": 1507.8,
+   "USD per 1k decisions": 0.04831370888888889,
+   "models seen": [
+    "strands-decider-2B-hobson-v19"
+   ],
+   "extras": {
+    "in-scope accuracy": 0.8888888888888888,
+    "OOS recall": 0.0,
+    "OOS precision": 0.0,
+    "conf<0.3 as OOS: OOS recall / in-scope acc": "0.000 / 0.889",
+    "conf<0.5 as OOS: OOS recall / in-scope acc": "1.000 / 0.889",
+    "conf<0.7 as OOS: OOS recall / in-scope acc": "1.000 / 0.889"
+   }
+  },
+  "jev": {
+   "n": 10,
+   "errors": 0,
+   "accuracy": 0.8,
+   "accuracy 95% CI": [
+    0.5,
+    1.0
+   ],
+   "macro-F1": 0.7272727272727273,
+   "ECE": 0.16700000000000004,
+   "Brier": 0.35619,
+   "selective": [
+    {
+     "threshold": 0.8,
+     "coverage": 0.9,
+     "accuracy": 0.8888888888888888,
+     "n": 9
+    },
+    {
+     "threshold": 0.9,
+     "coverage": 0.8,
+     "accuracy": 0.875,
+     "n": 8
+    },
+    {
+     "threshold": 0.95,
+     "coverage": 0.8,
+     "accuracy": 0.875,
+     "n": 8
+    }
+   ],
+   "client_ms": {
+    "p50": 290.45,
+    "p95": 377.53499999999997,
+    "p99": 397.58700000000005
+   },
+   "server_ms": {
+    "p50": null,
+    "p95": null,
+    "p99": null
+   },
+   "input_tokens/item": 2526.7,
+   "USD per 1k decisions": 0.10612139999999999,
+   "models seen": [
+    "jev-1.13.0"
+   ],
+   "extras": {
+    "in-scope accuracy": 0.8888888888888888,
+    "OOS recall": 0.0,
+    "OOS precision": 0.0,
+    "conf<0.3 as OOS: OOS recall / in-scope acc": "0.000 / 0.889",
+    "conf<0.5 as OOS: OOS recall / in-scope acc": "0.000 / 0.889",
+    "conf<0.7 as OOS: OOS recall / in-scope acc": "0.000 / 0.889"
+   }
+  }
+ },
+ "halueval": {
+  "decider": {
+   "n": 10,
+   "errors": 0,
+   "accuracy": 0.6,
+   "accuracy 95% CI": [
+    0.3,
+    0.9
+   ],
+   "macro-F1": 0.5833333333333333,
+   "ECE": 0.23722000000000001,
+   "Brier": 0.5197308039999999,
+   "selective": [
+    {
+     "threshold": 0.8,
+     "coverage": 0.4,
+     "accuracy": 0.75,
+     "n": 4
+    },
+    {
+     "threshold": 0.9,
+     "coverage": 0.0,
+     "accuracy": NaN,
+     "n": 0
+    },
+    {
+     "threshold": 0.95,
+     "coverage": 0.0,
+     "accuracy": NaN,
+     "n": 0
+    }
+   ],
+   "client_ms": {
+    "p50": 349.1,
+    "p95": 847.1849999999991,
+    "p99": 1154.1570000000002
+   },
+   "server_ms": {
+    "p50": 66.605,
+    "p95": 68.398,
+    "p99": 68.8156
+   },
+   "input_tokens/item": 233.2,
+   "USD per 1k decisions": 0.014909814222222222,
+   "models seen": [
+    "strands-decider-2B-hobson-v19"
+   ],
+   "extras": {
+    "F1 (positive = true)": 0.5,
+    "AUROC from P(true)": 0.875,
+    "false-positive rate": 0.0
+   }
+  },
+  "jev": {
+   "n": 10,
+   "errors": 0,
+   "accuracy": 0.7,
+   "accuracy 95% CI": [
+    0.4,
+    1.0
+   ],
+   "macro-F1": 0.696969696969697,
+   "ECE": 0.19299999999999998,
+   "Brier": 0.38326,
+   "selective": [
+    {
+     "threshold": 0.8,
+     "coverage": 0.7,
+     "accuracy": 0.8571428571428571,
+     "n": 7
+    },
+    {
+     "threshold": 0.9,
+     "coverage": 0.5,
+     "accuracy": 0.8,
+     "n": 5
+    },
+    {
+     "threshold": 0.95,
+     "coverage": 0.2,
+     "accuracy": 1.0,
+     "n": 2
+    }
+   ],
+   "client_ms": {
+    "p50": 289.7,
+    "p95": 390.2449999999999,
+    "p99": 430.52900000000005
+   },
+   "server_ms": {
+    "p50": null,
+    "p95": null,
+    "p99": null
+   },
+   "input_tokens/item": 465.4,
+   "USD per 1k decisions": 0.0195468,
+   "models seen": [
+    "jev-1.13.0"
+   ],
+   "extras": {
+    "F1 (positive = true)": 0.7272727272727273,
+    "AUROC from P(true)": 0.9166666666666666,
+    "false-positive rate": 0.25
+   }
+  }
+ },
+ "injection": {
+  "decider": {
+   "n": 10,
+   "errors": 0,
+   "accuracy": 0.5,
+   "accuracy 95% CI": [
+    0.2,
+    0.8
+   ],
+   "macro-F1": 0.3333333333333333,
+   "ECE": 0.31004999999999994,
+   "Brier": 0.644593138,
+   "selective": [
+    {
+     "threshold": 0.8,
+     "coverage": 0.7,
+     "accuracy": 0.7142857142857143,
+     "n": 7
+    },
+    {
+     "threshold": 0.9,
+     "coverage": 0.0,
+     "accuracy": NaN,
+     "n": 0
+    },
+    {
+     "threshold": 0.95,
+     "coverage": 0.0,
+     "accuracy": NaN,
+     "n": 0
+    }
+   ],
+   "client_ms": {
+    "p50": 347.75,
+    "p95": 633.9549999999996,
+    "p99": 773.671
+   },
+   "server_ms": {
+    "p50": 65.97,
+    "p95": 335.0714999999997,
+    "p99": 463.9983000000001
+   },
+   "input_tokens/item": 141.2,
+   "USD per 1k decisions": 0.02600599422222222,
+   "models seen": [
+    "strands-decider-2B-hobson-v19"
+   ],
+   "extras": {
+    "F1 (positive = true)": 0.0,
+    "AUROC from P(true)": 0.88,
+    "false-positive rate": 0.0
+   }
+  },
+  "jev": {
+   "n": 10,
+   "errors": 0,
+   "accuracy": 0.6,
+   "accuracy 95% CI": [
+    0.3,
+    0.9
+   ],
+   "macro-F1": 0.5238095238095238,
+   "ECE": 0.3210000000000001,
+   "Brier": 0.44614000000000004,
+   "selective": [
+    {
+     "threshold": 0.8,
+     "coverage": 0.7,
+     "accuracy": 0.7142857142857143,
+     "n": 7
+    },
+    {
+     "threshold": 0.9,
+     "coverage": 0.5,
+     "accuracy": 1.0,
+     "n": 5
+    },
+    {
+     "threshold": 0.95,
+     "coverage": 0.5,
+     "accuracy": 1.0,
+     "n": 5
+    }
+   ],
+   "client_ms": {
+    "p50": 293.4,
+    "p95": 363.60999999999996,
+    "p99": 383.122
+   },
+   "server_ms": {
+    "p50": null,
+    "p95": null,
+    "p99": null
+   },
+   "input_tokens/item": 371.1,
+   "USD per 1k decisions": 0.0155862,
+   "models seen": [
+    "jev-1.13.0"
+   ],
+   "extras": {
+    "F1 (positive = true)": 0.3333333333333333,
+    "AUROC from P(true)": 1.0,
+    "false-positive rate": 0.0
+   }
+  }
+ },
+ "injection__paraphrase": {
+  "decider": {
+   "n": 10,
+   "errors": 0,
+   "accuracy": 0.5,
+   "accuracy 95% CI": [
+    0.2,
+    0.8
+   ],
+   "macro-F1": 0.3333333333333333,
+   "ECE": 0.42494,
+   "Brier": 0.6611273360000001,
+   "selective": [
+    {
+     "threshold": 0.8,
+     "coverage": 0.9,
+     "accuracy": 0.5555555555555556,
+     "n": 9
+    },
+    {
+     "threshold": 0.9,
+     "coverage": 0.4,
+     "accuracy": 1.0,
+     "n": 4
+    },
+    {
+     "threshold": 0.95,
+     "coverage": 0.0,
+     "accuracy": NaN,
+     "n": 0
+    }
+   ],
+   "client_ms": {
+    "p50": 347.9,
+    "p95": 363.84999999999997,
+    "p99": 372.13
+   },
+   "server_ms": {
+    "p50": 65.88,
+    "p95": 68.4555,
+    "p99": 68.74709999999999
+   },
+   "input_tokens/item": 121.2,
+   "USD per 1k decisions": 0.014819050666666667,
+   "models seen": [
+    "strands-decider-2B-hobson-v19"
+   ],
+   "extras": {
+    "F1 (positive = true)": 0.0,
+    "AUROC from P(true)": 1.0,
+    "false-positive rate": 0.0
+   }
+  },
+  "jev": {
+   "n": 10,
+   "errors": 0,
+   "accuracy": 0.7,
+   "accuracy 95% CI": [
+    0.4,
+    0.9
+   ],
+   "macro-F1": 0.6703296703296704,
+   "ECE": 0.21700000000000003,
+   "Brier": 0.39869999999999994,
+   "selective": [
+    {
+     "threshold": 0.8,
+     "coverage": 0.6,
+     "accuracy": 0.8333333333333334,
+     "n": 6
+    },
+    {
+     "threshold": 0.9,
+     "coverage": 0.5,
+     "accuracy": 1.0,
+     "n": 5
+    },
+    {
+     "threshold": 0.95,
+     "coverage": 0.5,
+     "accuracy": 1.0,
+     "n": 5
+    }
+   ],
+   "client_ms": {
+    "p50": 297.85,
+    "p95": 350.60499999999996,
+    "p99": 351.721
+   },
+   "server_ms": {
+    "p50": null,
+    "p95": null,
+    "p99": null
+   },
+   "input_tokens/item": 351.1,
+   "USD per 1k decisions": 0.0147462,
+   "models seen": [
+    "jev-1.13.0"
+   ],
+   "extras": {
+    "F1 (positive = true)": 0.5714285714285714,
+    "AUROC from P(true)": 1.0,
+    "false-positive rate": 0.0
+   }
+  }
+ },
+ "when2call": {
+  "decider": {
+   "n": 10,
+   "errors": 0,
+   "accuracy": 0.6,
+   "accuracy 95% CI": [
+    0.3,
+    0.9
+   ],
+   "macro-F1": 0.35416666666666663,
+   "ECE": 0.3406699999999999,
+   "Brier": 0.45803336899999997,
+   "selective": [
+    {
+     "threshold": 0.8,
+     "coverage": 0.2,
+     "accuracy": 1.0,
+     "n": 2
+    },
+    {
+     "threshold": 0.9,
+     "coverage": 0.1,
+     "accuracy": 1.0,
+     "n": 1
+    },
+    {
+     "threshold": 0.95,
+     "coverage": 0.0,
+     "accuracy": NaN,
+     "n": 0
+    }
+   ],
+   "client_ms": {
+    "p50": 440.95,
+    "p95": 36409.59999999993,
+    "p99": 59541.76000000001
+   },
+   "server_ms": {
+    "p50": 155.64,
+    "p95": 35947.17649999993,
+    "p99": 59115.41930000001
+   },
+   "input_tokens/item": 1202.7,
+   "USD per 1k decisions": 1.4937271315555556,
+   "models seen": [
+    "strands-decider-2B-hobson-v19"
+   ],
+   "extras": {
+    "macro-F1 (3 gold classes)": 0.47222222222222215,
+    "tool-hallucination rate": 0.3333333333333333,
+    "answer-hallucination rate (picks 'direct')": 0.1,
+    "acc | gold=tool_call": 0.75,
+    "acc | gold=request_for_info": 0.75,
+    "acc | gold=cannot_answer": 0.0,
+    "acc | no tools offered": 0.0
+   }
+  },
+  "jev": {
+   "n": 10,
+   "errors": 0,
+   "accuracy": 0.8,
+   "accuracy 95% CI": [
+    0.5,
+    1.0
+   ],
+   "macro-F1": 0.7746031746031746,
+   "ECE": 0.09399999999999994,
+   "Brier": 0.23357999999999998,
+   "selective": [
+    {
+     "threshold": 0.8,
+     "coverage": 0.7,
+     "accuracy": 1.0,
+     "n": 7
+    },
+    {
+     "threshold": 0.9,
+     "coverage": 0.7,
+     "accuracy": 1.0,
+     "n": 7
+    },
+    {
+     "threshold": 0.95,
+     "coverage": 0.7,
+     "accuracy": 1.0,
+     "n": 7
+    }
+   ],
+   "client_ms": {
+    "p50": 303.25,
+    "p95": 412.0149999999998,
+    "p99": 470.803
+   },
+   "server_ms": {
+    "p50": null,
+    "p95": null,
+    "p99": null
+   },
+   "input_tokens/item": 1392.7,
+   "USD per 1k decisions": 0.0584934,
+   "models seen": [
+    "jev-1.13.0"
+   ],
+   "extras": {
+    "macro-F1 (3 gold classes)": 0.7746031746031745,
+    "tool-hallucination rate": 0.0,
+    "answer-hallucination rate (picks 'direct')": 0.0,
+    "acc | gold=tool_call": 0.75,
+    "acc | gold=request_for_info": 1.0,
+    "acc | gold=cannot_answer": 0.5,
+    "acc | no tools offered": 1.0
+   }
+  }
+ },
+ "when2call__labeled": {
+  "decider": {
+   "n": 10,
+   "errors": 0,
+   "accuracy": 0.6,
+   "accuracy 95% CI": [
+    0.3,
+    0.9
+   ],
+   "macro-F1": 0.6126984126984127,
+   "ECE": 0.21405000000000002,
+   "Brier": 0.47979353700000005,
+   "selective": [
+    {
+     "threshold": 0.8,
+     "coverage": 0.2,
+     "accuracy": 1.0,
+     "n": 2
+    },
+    {
+     "threshold": 0.9,
+     "coverage": 0.1,
+     "accuracy": 1.0,
+     "n": 1
+    },
+    {
+     "threshold": 0.95,
+     "coverage": 0.1,
+     "accuracy": 1.0,
+     "n": 1
+    }
+   ],
+   "client_ms": {
+    "p50": 384.7,
+    "p95": 884.1599999999995,
+    "p99": 1032.912
+   },
+   "server_ms": {
+    "p50": 97.06,
+    "p95": 448.65099999999984,
+    "p99": 501.1462
+   },
+   "input_tokens/item": 1220.7,
+   "USD per 1k decisions": 0.04030371333333333,
+   "models seen": [
+    "strands-decider-2B-hobson-v19"
+   ],
+   "extras": {
+    "macro-F1 (3 gold classes)": 0.6126984126984126,
+    "tool-hallucination rate": 0.5,
+    "answer-hallucination rate (picks 'direct')": 0.0,
+    "acc | gold=tool_call": 0.75,
+    "acc | gold=request_for_info": 0.5,
+    "acc | gold=cannot_answer": 0.5,
+    "acc | no tools offered": 0.0
+   }
+  },
+  "jev": {
+   "n": 10,
+   "errors": 0,
+   "accuracy": 0.8,
+   "accuracy 95% CI": [
+    0.5,
+    1.0
+   ],
+   "macro-F1": 0.7685185185185185,
+   "ECE": 0.17900000000000005,
+   "Brier": 0.26232,
+   "selective": [
+    {
+     "threshold": 0.8,
+     "coverage": 0.8,
+     "accuracy": 0.875,
+     "n": 8
+    },
+    {
+     "threshold": 0.9,
+     "coverage": 0.7,
+     "accuracy": 1.0,
+     "n": 7
+    },
+    {
+     "threshold": 0.95,
+     "coverage": 0.7,
+     "accuracy": 1.0,
+     "n": 7
+    }
+   ],
+   "client_ms": {
+    "p50": 308.5,
+    "p95": 362.6749999999999,
+    "p99": 385.895
+   },
+   "server_ms": {
+    "p50": null,
+    "p95": null,
+    "p99": null
+   },
+   "input_tokens/item": 1410.7,
+   "USD per 1k decisions": 0.0592494,
+   "models seen": [
+    "jev-1.13.0"
+   ],
+   "extras": {
+    "macro-F1 (3 gold classes)": 0.7685185185185185,
+    "tool-hallucination rate": 0.16666666666666666,
+    "answer-hallucination rate (picks 'direct')": 0.0,
+    "acc | gold=tool_call": 0.75,
+    "acc | gold=request_for_info": 1.0,
+    "acc | gold=cannot_answer": 0.5,
+    "acc | no tools offered": 1.0
+   }
+  }
+ }
+}

@@ -1,0 +1,22 @@
+{
+ "sessions": [
+  {
+   "task": "banking77",
+   "backend": "jev",
+   "url": "https://api.typesafe.ai/v1/systemone",
+   "model_field": "jev-latest",
+   "n_items": 200,
+   "items_sha256": "2e8f3b77b9c403ea546e550fff3865d809f8c566478506e59c26fb6da3c5e3ae",
+   "resumed_skipping": 0,
+   "concurrency": 1,
+   "started_utc": "2026-10-05T05:56:06.572325+00:00",
+   "host": "<laptop>",
+   "variant": "default",
+   "seed": 0,
+   "limit": 200,
+   "finished_utc": "2026-10-05T05:57:09.314821+00:00",
+   "wall_s": 62.7,
+   "errors_this_session": 0
+  }
+ ]
+}

@@ -1,0 +1,3111 @@
+{
+ "backend": "jev",
+ "url": "https://api.typesafe.ai/v1/systemone",
+ "seed": 7,
+ "strategies": {
+  "naive_choice": {
+   "tactics": [
+    {
+     "calls": 1,
+     "client_ms": 630.8,
+     "server_ms": null,
+     "input_tokens": 390,
+     "confidence": 0.14,
+     "bucket": "block/col",
+     "cell": 7,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 291.5,
+     "server_ms": null,
+     "input_tokens": 363,
+     "confidence": 0.23,
+     "bucket": "block/col",
+     "cell": 0,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 291.6,
+     "server_ms": null,
+     "input_tokens": 418,
+     "confidence": 0.46,
+     "bucket": "block/col",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 270.2,
+     "server_ms": null,
+     "input_tokens": 390,
+     "confidence": 0.42,
+     "bucket": "block/col",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 305.7,
+     "server_ms": null,
+     "input_tokens": 363,
+     "confidence": 0.37,
+     "bucket": "block/col",
+     "cell": 8,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 308.4,
+     "server_ms": null,
+     "input_tokens": 363,
+     "confidence": 0.33,
+     "bucket": "block/col",
+     "cell": 0,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 312.2,
+     "server_ms": null,
+     "input_tokens": 390,
+     "confidence": 0.24,
+     "bucket": "block/col",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 297.0,
+     "server_ms": null,
+     "input_tokens": 390,
+     "confidence": 0.25,
+     "bucket": "block/col",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 284.8,
+     "server_ms": null,
+     "input_tokens": 362,
+     "confidence": 0.03,
+     "bucket": "block/diag",
+     "cell": 2,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 274.6,
+     "server_ms": null,
+     "input_tokens": 390,
+     "confidence": 0.18,
+     "bucket": "block/diag",
+     "cell": 1,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 295.4,
+     "server_ms": null,
+     "input_tokens": 363,
+     "confidence": 0.25,
+     "bucket": "block/diag",
+     "cell": 0,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 295.7,
+     "server_ms": null,
+     "input_tokens": 417,
+     "confidence": 0.1,
+     "bucket": "block/diag",
+     "cell": 6,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 306.9,
+     "server_ms": null,
+     "input_tokens": 363,
+     "confidence": 0.07,
+     "bucket": "block/diag",
+     "cell": 7,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 368.2,
+     "server_ms": null,
+     "input_tokens": 363,
+     "confidence": 0.04,
+     "bucket": "block/diag",
+     "cell": 8,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 297.5,
+     "server_ms": null,
+     "input_tokens": 363,
+     "confidence": 0.13,
+     "bucket": "block/diag",
+     "cell": 6,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 295.6,
+     "server_ms": null,
+     "input_tokens": 391,
+     "confidence": 0.21,
+     "bucket": "block/diag",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 303.6,
+     "server_ms": null,
+     "input_tokens": 390,
+     "confidence": 0.2,
+     "bucket": "block/row",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 282.6,
+     "server_ms": null,
+     "input_tokens": 362,
+     "confidence": 0.1,
+     "bucket": "block/row",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 283.2,
+     "server_ms": null,
+     "input_tokens": 419,
+     "confidence": 0.16,
+     "bucket": "block/row",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 299.4,
+     "server_ms": null,
+     "input_tokens": 363,
+     "confidence": 0.23,
+     "bucket": "block/row",
+     "cell": 1,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 320.3,
+     "server_ms": null,
+     "input_tokens": 418,
+     "confidence": 0.5,
+     "bucket": "block/row",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 305.3,
+     "server_ms": null,
+     "input_tokens": 390,
+     "confidence": 0.2,
+     "bucket": "block/row",
+     "cell": 8,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 289.1,
+     "server_ms": null,
+     "input_tokens": 363,
+     "confidence": 0.07,
+     "bucket": "block/row",
+     "cell": 8,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 387.9,
+     "server_ms": null,
+     "input_tokens": 361,
+     "confidence": 0.27,
+     "bucket": "block/row",
+     "cell": 2,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 294.9,
+     "server_ms": null,
+     "input_tokens": 389,
+     "confidence": 0.26,
+     "bucket": "quiet",
+     "cell": 5,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 305.5,
+     "server_ms": null,
+     "input_tokens": 363,
+     "confidence": 0.17,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 286.7,
+     "server_ms": null,
+     "input_tokens": 390,
+     "confidence": 0.31,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 358.1,
+     "server_ms": null,
+     "input_tokens": 418,
+     "confidence": 0.2,
+     "bucket": "quiet",
+     "cell": 0,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 291.7,
+     "server_ms": null,
+     "input_tokens": 418,
+     "confidence": 0.12,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 281.8,
+     "server_ms": null,
+     "input_tokens": 390,
+     "confidence": 0.32,
+     "bucket": "quiet",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 276.1,
+     "server_ms": null,
+     "input_tokens": 417,
+     "confidence": 0.2,
+     "bucket": "quiet",
+     "cell": 8,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 313.4,
+     "server_ms": null,
+     "input_tokens": 390,
+     "confidence": 0.3,
+     "bucket": "quiet",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 327.1,
+     "server_ms": null,
+     "input_tokens": 363,
+     "confidence": 0.24,
+     "bucket": "quiet",
+     "cell": 0,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 303.7,
+     "server_ms": null,
+     "input_tokens": 390,
+     "confidence": 0.24,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 298.4,
+     "server_ms": null,
+     "input_tokens": 418,
+     "confidence": 0.05,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 272.5,
+     "server_ms": null,
+     "input_tokens": 390,
+     "confidence": 0.18,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 286.6,
+     "server_ms": null,
+     "input_tokens": 418,
+     "confidence": 0.29,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 265.9,
+     "server_ms": null,
+     "input_tokens": 417,
+     "confidence": 0.31,
+     "bucket": "quiet",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 294.4,
+     "server_ms": null,
+     "input_tokens": 418,
+     "confidence": 0.38,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 273.9,
+     "server_ms": null,
+     "input_tokens": 417,
+     "confidence": 0.36,
+     "bucket": "quiet",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 334.6,
+     "server_ms": null,
+     "input_tokens": 390,
+     "confidence": 0.05,
+     "bucket": "win/col",
+     "cell": 7,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 306.8,
+     "server_ms": null,
+     "input_tokens": 389,
+     "confidence": 0.29,
+     "bucket": "win/col",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 281.1,
+     "server_ms": null,
+     "input_tokens": 363,
+     "confidence": 0.31,
+     "bucket": "win/col",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 278.9,
+     "server_ms": null,
+     "input_tokens": 389,
+     "confidence": 0.4,
+     "bucket": "win/col",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 277.7,
+     "server_ms": null,
+     "input_tokens": 363,
+     "confidence": 0.12,
+     "bucket": "win/col",
+     "cell": 1,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 278.4,
+     "server_ms": null,
+     "input_tokens": 363,
+     "confidence": 0.04,
+     "bucket": "win/col",
+     "cell": 6,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 320.0,
+     "server_ms": null,
+     "input_tokens": 389,
+     "confidence": 0.12,
+     "bucket": "win/col",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 291.7,
+     "server_ms": null,
+     "input_tokens": 390,
+     "confidence": 0.27,
+     "bucket": "win/col",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 273.3,
+     "server_ms": null,
+     "input_tokens": 390,
+     "confidence": 0.16,
+     "bucket": "win/diag",
+     "cell": 2,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 305.5,
+     "server_ms": null,
+     "input_tokens": 363,
+     "confidence": 0.1,
+     "bucket": "win/diag",
+     "cell": 6,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 278.1,
+     "server_ms": null,
+     "input_tokens": 363,
+     "confidence": 0.08,
+     "bucket": "win/diag",
+     "cell": 0,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 302.5,
+     "server_ms": null,
+     "input_tokens": 362,
+     "confidence": 0.18,
+     "bucket": "win/diag",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 275.9,
+     "server_ms": null,
+     "input_tokens": 391,
+     "confidence": 0.09,
+     "bucket": "win/diag",
+     "cell": 6,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 297.4,
+     "server_ms": null,
+     "input_tokens": 389,
+     "confidence": 0.39,
+     "bucket": "win/diag",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 308.6,
+     "server_ms": null,
+     "input_tokens": 363,
+     "confidence": 0.2,
+     "bucket": "win/diag",
+     "cell": 6,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 281.0,
+     "server_ms": null,
+     "input_tokens": 363,
+     "confidence": 0.34,
+     "bucket": "win/diag",
+     "cell": 0,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 258.9,
+     "server_ms": null,
+     "input_tokens": 362,
+     "confidence": 0.24,
+     "bucket": "win/row",
+     "cell": 2,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 279.0,
+     "server_ms": null,
+     "input_tokens": 362,
+     "confidence": 0.1,
+     "bucket": "win/row",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 282.4,
+     "server_ms": null,
+     "input_tokens": 362,
+     "confidence": 0.0,
+     "bucket": "win/row",
+     "cell": 5,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 310.6,
+     "server_ms": null,
+     "input_tokens": 390,
+     "confidence": 0.2,
+     "bucket": "win/row",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 278.6,
+     "server_ms": null,
+     "input_tokens": 389,
+     "confidence": 0.36,
+     "bucket": "win/row",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 287.5,
+     "server_ms": null,
+     "input_tokens": 363,
+     "confidence": 0.4,
+     "bucket": "win/row",
+     "cell": 0,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 294.4,
+     "server_ms": null,
+     "input_tokens": 362,
+     "confidence": 0.52,
+     "bucket": "win/row",
+     "cell": 2,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 297.3,
+     "server_ms": null,
+     "input_tokens": 363,
+     "confidence": 0.15,
+     "bucket": "win/row",
+     "cell": 0,
+     "ok": true
+    }
+   ],
+   "games": {
+    "random": [
+     {
+      "result": "win",
+      "moves": [
+       5,
+       4,
+       0,
+       6,
+       3,
+       8,
+       7,
+       2
+      ]
+     },
+     {
+      "result": "loss",
+      "moves": [
+       1,
+       4,
+       7,
+       5,
+       3,
+       0,
+       8,
+       2,
+       6
+      ]
+     },
+     {
+      "result": "loss",
+      "moves": [
+       8,
+       4,
+       7,
+       6,
+       5,
+       3,
+       0,
+       1,
+       2
+      ]
+     },
+     {
+      "result": "win",
+      "moves": [
+       1,
+       4,
+       7,
+       5,
+       6,
+       8,
+       0,
+       2
+      ]
+     },
+     {
+      "result": "loss",
+      "moves": [
+       2,
+       4,
+       6,
+       8,
+       0,
+       1,
+       3
+      ]
+     }
+    ],
+    "minimax": [
+     {
+      "result": "loss",
+      "moves": [
+       5,
+       4,
+       0,
+       8,
+       6,
+       7,
+       3
+      ]
+     },
+     {
+      "result": "loss",
+      "moves": [
+       1,
+       4,
+       8,
+       5,
+       3,
+       0,
+       7,
+       2,
+       6
+      ]
+     },
+     {
+      "result": "loss",
+      "moves": [
+       8,
+       4,
+       7,
+       6,
+       2,
+       0,
+       5
+      ]
+     },
+     {
+      "result": "draw",
+      "moves": [
+       1,
+       4,
+       8,
+       5,
+       3,
+       0,
+       2,
+       7,
+       6
+      ]
+     },
+     {
+      "result": "loss",
+      "moves": [
+       2,
+       4,
+       6,
+       8,
+       0,
+       1,
+       3
+      ]
+     }
+    ]
+   }
+  },
+  "strategic_choice": {
+   "tactics": [
+    {
+     "calls": 1,
+     "client_ms": 340.9,
+     "server_ms": null,
+     "input_tokens": 466,
+     "confidence": 0.11,
+     "bucket": "block/col",
+     "cell": 3,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 294.1,
+     "server_ms": null,
+     "input_tokens": 425,
+     "confidence": 0.17,
+     "bucket": "block/col",
+     "cell": 0,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 284.8,
+     "server_ms": null,
+     "input_tokens": 507,
+     "confidence": 0.53,
+     "bucket": "block/col",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 292.0,
+     "server_ms": null,
+     "input_tokens": 465,
+     "confidence": 0.34,
+     "bucket": "block/col",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 277.2,
+     "server_ms": null,
+     "input_tokens": 425,
+     "confidence": 0.07,
+     "bucket": "block/col",
+     "cell": 8,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 279.3,
+     "server_ms": null,
+     "input_tokens": 425,
+     "confidence": 0.16,
+     "bucket": "block/col",
+     "cell": 0,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 300.9,
+     "server_ms": null,
+     "input_tokens": 465,
+     "confidence": 0.41,
+     "bucket": "block/col",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 318.9,
+     "server_ms": null,
+     "input_tokens": 465,
+     "confidence": 0.26,
+     "bucket": "block/col",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 306.2,
+     "server_ms": null,
+     "input_tokens": 424,
+     "confidence": 0.02,
+     "bucket": "block/diag",
+     "cell": 2,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 300.1,
+     "server_ms": null,
+     "input_tokens": 466,
+     "confidence": 0.08,
+     "bucket": "block/diag",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 298.4,
+     "server_ms": null,
+     "input_tokens": 425,
+     "confidence": 0.09,
+     "bucket": "block/diag",
+     "cell": 6,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 589.0,
+     "server_ms": null,
+     "input_tokens": 507,
+     "confidence": 0.17,
+     "bucket": "block/diag",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 300.7,
+     "server_ms": null,
+     "input_tokens": 425,
+     "confidence": 0.16,
+     "bucket": "block/diag",
+     "cell": 8,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 312.9,
+     "server_ms": null,
+     "input_tokens": 425,
+     "confidence": 0.1,
+     "bucket": "block/diag",
+     "cell": 8,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 282.3,
+     "server_ms": null,
+     "input_tokens": 425,
+     "confidence": 0.0,
+     "bucket": "block/diag",
+     "cell": 8,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 302.3,
+     "server_ms": null,
+     "input_tokens": 466,
+     "confidence": 0.31,
+     "bucket": "block/diag",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 293.8,
+     "server_ms": null,
+     "input_tokens": 465,
+     "confidence": 0.59,
+     "bucket": "block/row",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 285.4,
+     "server_ms": null,
+     "input_tokens": 423,
+     "confidence": 0.17,
+     "bucket": "block/row",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 324.3,
+     "server_ms": null,
+     "input_tokens": 508,
+     "confidence": 0.54,
+     "bucket": "block/row",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 299.1,
+     "server_ms": null,
+     "input_tokens": 425,
+     "confidence": 0.09,
+     "bucket": "block/row",
+     "cell": 1,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 284.6,
+     "server_ms": null,
+     "input_tokens": 507,
+     "confidence": 0.5,
+     "bucket": "block/row",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 304.3,
+     "server_ms": null,
+     "input_tokens": 466,
+     "confidence": 0.32,
+     "bucket": "block/row",
+     "cell": 8,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 291.9,
+     "server_ms": null,
+     "input_tokens": 425,
+     "confidence": 0.18,
+     "bucket": "block/row",
+     "cell": 8,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 286.0,
+     "server_ms": null,
+     "input_tokens": 423,
+     "confidence": 0.42,
+     "bucket": "block/row",
+     "cell": 5,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 336.5,
+     "server_ms": null,
+     "input_tokens": 464,
+     "confidence": 0.24,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 308.6,
+     "server_ms": null,
+     "input_tokens": 424,
+     "confidence": 0.48,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 297.4,
+     "server_ms": null,
+     "input_tokens": 465,
+     "confidence": 0.35,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 300.0,
+     "server_ms": null,
+     "input_tokens": 508,
+     "confidence": 0.28,
+     "bucket": "quiet",
+     "cell": 1,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 293.1,
+     "server_ms": null,
+     "input_tokens": 507,
+     "confidence": 0.65,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 333.0,
+     "server_ms": null,
+     "input_tokens": 465,
+     "confidence": 0.38,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 286.7,
+     "server_ms": null,
+     "input_tokens": 507,
+     "confidence": 0.2,
+     "bucket": "quiet",
+     "cell": 8,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 325.0,
+     "server_ms": null,
+     "input_tokens": 465,
+     "confidence": 0.47,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 285.7,
+     "server_ms": null,
+     "input_tokens": 425,
+     "confidence": 0.21,
+     "bucket": "quiet",
+     "cell": 0,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 297.5,
+     "server_ms": null,
+     "input_tokens": 465,
+     "confidence": 0.54,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 287.3,
+     "server_ms": null,
+     "input_tokens": 507,
+     "confidence": 0.69,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 284.7,
+     "server_ms": null,
+     "input_tokens": 465,
+     "confidence": 0.37,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 286.4,
+     "server_ms": null,
+     "input_tokens": 507,
+     "confidence": 0.46,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 334.4,
+     "server_ms": null,
+     "input_tokens": 506,
+     "confidence": 0.4,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 325.7,
+     "server_ms": null,
+     "input_tokens": 507,
+     "confidence": 0.61,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 310.5,
+     "server_ms": null,
+     "input_tokens": 506,
+     "confidence": 0.48,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 295.8,
+     "server_ms": null,
+     "input_tokens": 466,
+     "confidence": 0.05,
+     "bucket": "win/col",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 284.0,
+     "server_ms": null,
+     "input_tokens": 464,
+     "confidence": 0.24,
+     "bucket": "win/col",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 287.5,
+     "server_ms": null,
+     "input_tokens": 424,
+     "confidence": 0.45,
+     "bucket": "win/col",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 394.0,
+     "server_ms": null,
+     "input_tokens": 464,
+     "confidence": 0.43,
+     "bucket": "win/col",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 349.5,
+     "server_ms": null,
+     "input_tokens": 425,
+     "confidence": 0.3,
+     "bucket": "win/col",
+     "cell": 6,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 339.1,
+     "server_ms": null,
+     "input_tokens": 425,
+     "confidence": 0.17,
+     "bucket": "win/col",
+     "cell": 7,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 294.1,
+     "server_ms": null,
+     "input_tokens": 465,
+     "confidence": 0.4,
+     "bucket": "win/col",
+     "cell": 7,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 306.8,
+     "server_ms": null,
+     "input_tokens": 465,
+     "confidence": 0.2,
+     "bucket": "win/col",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 334.1,
+     "server_ms": null,
+     "input_tokens": 465,
+     "confidence": 0.34,
+     "bucket": "win/diag",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 332.4,
+     "server_ms": null,
+     "input_tokens": 425,
+     "confidence": 0.15,
+     "bucket": "win/diag",
+     "cell": 8,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 305.8,
+     "server_ms": null,
+     "input_tokens": 425,
+     "confidence": 0.09,
+     "bucket": "win/diag",
+     "cell": 7,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 291.2,
+     "server_ms": null,
+     "input_tokens": 423,
+     "confidence": 0.15,
+     "bucket": "win/diag",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 341.5,
+     "server_ms": null,
+     "input_tokens": 467,
+     "confidence": 0.17,
+     "bucket": "win/diag",
+     "cell": 8,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 320.1,
+     "server_ms": null,
+     "input_tokens": 465,
+     "confidence": 0.1,
+     "bucket": "win/diag",
+     "cell": 7,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 297.3,
+     "server_ms": null,
+     "input_tokens": 425,
+     "confidence": 0.08,
+     "bucket": "win/diag",
+     "cell": 8,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 309.1,
+     "server_ms": null,
+     "input_tokens": 425,
+     "confidence": 0.13,
+     "bucket": "win/diag",
+     "cell": 0,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 299.9,
+     "server_ms": null,
+     "input_tokens": 424,
+     "confidence": 0.07,
+     "bucket": "win/row",
+     "cell": 6,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 345.9,
+     "server_ms": null,
+     "input_tokens": 424,
+     "confidence": 0.46,
+     "bucket": "win/row",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 319.1,
+     "server_ms": null,
+     "input_tokens": 424,
+     "confidence": 0.18,
+     "bucket": "win/row",
+     "cell": 5,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 275.1,
+     "server_ms": null,
+     "input_tokens": 465,
+     "confidence": 0.57,
+     "bucket": "win/row",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 322.4,
+     "server_ms": null,
+     "input_tokens": 464,
+     "confidence": 0.36,
+     "bucket": "win/row",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 303.2,
+     "server_ms": null,
+     "input_tokens": 425,
+     "confidence": 0.01,
+     "bucket": "win/row",
+     "cell": 0,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 301.7,
+     "server_ms": null,
+     "input_tokens": 424,
+     "confidence": 0.22,
+     "bucket": "win/row",
+     "cell": 2,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 335.8,
+     "server_ms": null,
+     "input_tokens": 425,
+     "confidence": 0.39,
+     "bucket": "win/row",
+     "cell": 7,
+     "ok": false
+    }
+   ],
+   "games": {
+    "random": [
+     {
+      "result": "win",
+      "moves": [
+       5,
+       4,
+       0,
+       3,
+       6,
+       1,
+       8,
+       7
+      ]
+     },
+     {
+      "result": "loss",
+      "moves": [
+       1,
+       4,
+       7,
+       3,
+       5,
+       0,
+       8,
+       2,
+       6
+      ]
+     },
+     {
+      "result": "win",
+      "moves": [
+       8,
+       4,
+       7,
+       6,
+       5,
+       2
+      ]
+     },
+     {
+      "result": "win",
+      "moves": [
+       1,
+       4,
+       7,
+       3,
+       6,
+       8,
+       0,
+       5
+      ]
+     },
+     {
+      "result": "loss",
+      "moves": [
+       2,
+       4,
+       6,
+       8,
+       0,
+       5,
+       1
+      ]
+     }
+    ],
+    "minimax": [
+     {
+      "result": "loss",
+      "moves": [
+       5,
+       4,
+       0,
+       3,
+       2,
+       1,
+       8
+      ]
+     },
+     {
+      "result": "loss",
+      "moves": [
+       1,
+       4,
+       8,
+       7,
+       2,
+       5,
+       0
+      ]
+     },
+     {
+      "result": "draw",
+      "moves": [
+       8,
+       4,
+       7,
+       6,
+       2,
+       5,
+       3,
+       0,
+       1
+      ]
+     },
+     {
+      "result": "loss",
+      "moves": [
+       1,
+       4,
+       8,
+       7,
+       2,
+       5,
+       0
+      ]
+     },
+     {
+      "result": "loss",
+      "moves": [
+       2,
+       4,
+       6,
+       8,
+       0,
+       5,
+       1
+      ]
+     }
+    ]
+   }
+  },
+  "noul_score": {
+   "tactics": [
+    {
+     "calls": 2,
+     "client_ms": 603.3,
+     "server_ms": null,
+     "input_tokens": 1298,
+     "confidence": null,
+     "bucket": "block/col",
+     "cell": 1,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 308.5,
+     "server_ms": null,
+     "input_tokens": 470,
+     "confidence": null,
+     "bucket": "block/col",
+     "cell": 1,
+     "ok": true
+    },
+    {
+     "calls": 2,
+     "client_ms": 712.0,
+     "server_ms": null,
+     "input_tokens": 1646,
+     "confidence": null,
+     "bucket": "block/col",
+     "cell": 6,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 335.9,
+     "server_ms": null,
+     "input_tokens": 638,
+     "confidence": null,
+     "bucket": "block/col",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 326.4,
+     "server_ms": null,
+     "input_tokens": 470,
+     "confidence": null,
+     "bucket": "block/col",
+     "cell": 3,
+     "ok": true
+    },
+    {
+     "calls": 2,
+     "client_ms": 605.5,
+     "server_ms": null,
+     "input_tokens": 950,
+     "confidence": null,
+     "bucket": "block/col",
+     "cell": 0,
+     "ok": false
+    },
+    {
+     "calls": 2,
+     "client_ms": 603.5,
+     "server_ms": null,
+     "input_tokens": 1296,
+     "confidence": null,
+     "bucket": "block/col",
+     "cell": 0,
+     "ok": false
+    },
+    {
+     "calls": 2,
+     "client_ms": 570.5,
+     "server_ms": null,
+     "input_tokens": 1296,
+     "confidence": null,
+     "bucket": "block/col",
+     "cell": 3,
+     "ok": false
+    },
+    {
+     "calls": 2,
+     "client_ms": 651.5,
+     "server_ms": null,
+     "input_tokens": 948,
+     "confidence": null,
+     "bucket": "block/diag",
+     "cell": 0,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 400.8,
+     "server_ms": null,
+     "input_tokens": 639,
+     "confidence": null,
+     "bucket": "block/diag",
+     "cell": 1,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 262.4,
+     "server_ms": null,
+     "input_tokens": 470,
+     "confidence": null,
+     "bucket": "block/diag",
+     "cell": 6,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 271.1,
+     "server_ms": null,
+     "input_tokens": 808,
+     "confidence": null,
+     "bucket": "block/diag",
+     "cell": 6,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 286.3,
+     "server_ms": null,
+     "input_tokens": 470,
+     "confidence": null,
+     "bucket": "block/diag",
+     "cell": 8,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 287.5,
+     "server_ms": null,
+     "input_tokens": 470,
+     "confidence": null,
+     "bucket": "block/diag",
+     "cell": 8,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 305.3,
+     "server_ms": null,
+     "input_tokens": 470,
+     "confidence": null,
+     "bucket": "block/diag",
+     "cell": 6,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 325.0,
+     "server_ms": null,
+     "input_tokens": 639,
+     "confidence": null,
+     "bucket": "block/diag",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 2,
+     "client_ms": 566.1,
+     "server_ms": null,
+     "input_tokens": 1296,
+     "confidence": null,
+     "bucket": "block/row",
+     "cell": 2,
+     "ok": true
+    },
+    {
+     "calls": 2,
+     "client_ms": 604.0,
+     "server_ms": null,
+     "input_tokens": 946,
+     "confidence": null,
+     "bucket": "block/row",
+     "cell": 2,
+     "ok": true
+    },
+    {
+     "calls": 2,
+     "client_ms": 619.1,
+     "server_ms": null,
+     "input_tokens": 1648,
+     "confidence": null,
+     "bucket": "block/row",
+     "cell": 1,
+     "ok": true
+    },
+    {
+     "calls": 2,
+     "client_ms": 589.5,
+     "server_ms": null,
+     "input_tokens": 950,
+     "confidence": null,
+     "bucket": "block/row",
+     "cell": 1,
+     "ok": true
+    },
+    {
+     "calls": 2,
+     "client_ms": 835.0,
+     "server_ms": null,
+     "input_tokens": 1646,
+     "confidence": null,
+     "bucket": "block/row",
+     "cell": 1,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 283.2,
+     "server_ms": null,
+     "input_tokens": 639,
+     "confidence": null,
+     "bucket": "block/row",
+     "cell": 3,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 390.8,
+     "server_ms": null,
+     "input_tokens": 470,
+     "confidence": null,
+     "bucket": "block/row",
+     "cell": 1,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 272.0,
+     "server_ms": null,
+     "input_tokens": 468,
+     "confidence": null,
+     "bucket": "block/row",
+     "cell": 2,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 410.8,
+     "server_ms": null,
+     "input_tokens": 637,
+     "confidence": null,
+     "bucket": "quiet",
+     "cell": 2,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 371.5,
+     "server_ms": null,
+     "input_tokens": 469,
+     "confidence": null,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 284.2,
+     "server_ms": null,
+     "input_tokens": 638,
+     "confidence": null,
+     "bucket": "quiet",
+     "cell": 2,
+     "ok": true
+    },
+    {
+     "calls": 2,
+     "client_ms": 730.4,
+     "server_ms": null,
+     "input_tokens": 1648,
+     "confidence": null,
+     "bucket": "quiet",
+     "cell": 1,
+     "ok": false
+    },
+    {
+     "calls": 2,
+     "client_ms": 715.1,
+     "server_ms": null,
+     "input_tokens": 1646,
+     "confidence": null,
+     "bucket": "quiet",
+     "cell": 2,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 291.3,
+     "server_ms": null,
+     "input_tokens": 638,
+     "confidence": null,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 279.7,
+     "server_ms": null,
+     "input_tokens": 808,
+     "confidence": null,
+     "bucket": "quiet",
+     "cell": 3,
+     "ok": true
+    },
+    {
+     "calls": 2,
+     "client_ms": 706.5,
+     "server_ms": null,
+     "input_tokens": 1296,
+     "confidence": null,
+     "bucket": "quiet",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 3,
+     "client_ms": 997.4,
+     "server_ms": null,
+     "input_tokens": 1500,
+     "confidence": null,
+     "bucket": "quiet",
+     "cell": 0,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 293.0,
+     "server_ms": null,
+     "input_tokens": 638,
+     "confidence": null,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 2,
+     "client_ms": 667.6,
+     "server_ms": null,
+     "input_tokens": 1646,
+     "confidence": null,
+     "bucket": "quiet",
+     "cell": 2,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 377.7,
+     "server_ms": null,
+     "input_tokens": 638,
+     "confidence": null,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 295.0,
+     "server_ms": null,
+     "input_tokens": 808,
+     "confidence": null,
+     "bucket": "quiet",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 2,
+     "client_ms": 585.6,
+     "server_ms": null,
+     "input_tokens": 1644,
+     "confidence": null,
+     "bucket": "quiet",
+     "cell": 2,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 465.2,
+     "server_ms": null,
+     "input_tokens": 808,
+     "confidence": null,
+     "bucket": "quiet",
+     "cell": 2,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 288.8,
+     "server_ms": null,
+     "input_tokens": 807,
+     "confidence": null,
+     "bucket": "quiet",
+     "cell": 2,
+     "ok": false
+    },
+    {
+     "calls": 2,
+     "client_ms": 627.0,
+     "server_ms": null,
+     "input_tokens": 1298,
+     "confidence": null,
+     "bucket": "win/col",
+     "cell": 3,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 308.6,
+     "server_ms": null,
+     "input_tokens": 637,
+     "confidence": null,
+     "bucket": "win/col",
+     "cell": 2,
+     "ok": false
+    },
+    {
+     "calls": 2,
+     "client_ms": 828.9,
+     "server_ms": null,
+     "input_tokens": 948,
+     "confidence": null,
+     "bucket": "win/col",
+     "cell": 0,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 299.4,
+     "server_ms": null,
+     "input_tokens": 637,
+     "confidence": null,
+     "bucket": "win/col",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 329.9,
+     "server_ms": null,
+     "input_tokens": 470,
+     "confidence": null,
+     "bucket": "win/col",
+     "cell": 1,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 289.4,
+     "server_ms": null,
+     "input_tokens": 470,
+     "confidence": null,
+     "bucket": "win/col",
+     "cell": 6,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 331.5,
+     "server_ms": null,
+     "input_tokens": 638,
+     "confidence": null,
+     "bucket": "win/col",
+     "cell": 2,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 382.3,
+     "server_ms": null,
+     "input_tokens": 638,
+     "confidence": null,
+     "bucket": "win/col",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 2,
+     "client_ms": 749.2,
+     "server_ms": null,
+     "input_tokens": 1296,
+     "confidence": null,
+     "bucket": "win/diag",
+     "cell": 2,
+     "ok": false
+    },
+    {
+     "calls": 2,
+     "client_ms": 573.8,
+     "server_ms": null,
+     "input_tokens": 950,
+     "confidence": null,
+     "bucket": "win/diag",
+     "cell": 6,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 296.6,
+     "server_ms": null,
+     "input_tokens": 470,
+     "confidence": null,
+     "bucket": "win/diag",
+     "cell": 7,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 289.0,
+     "server_ms": null,
+     "input_tokens": 468,
+     "confidence": null,
+     "bucket": "win/diag",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 301.9,
+     "server_ms": null,
+     "input_tokens": 640,
+     "confidence": null,
+     "bucket": "win/diag",
+     "cell": 3,
+     "ok": false
+    },
+    {
+     "calls": 2,
+     "client_ms": 579.6,
+     "server_ms": null,
+     "input_tokens": 1296,
+     "confidence": null,
+     "bucket": "win/diag",
+     "cell": 2,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 295.4,
+     "server_ms": null,
+     "input_tokens": 470,
+     "confidence": null,
+     "bucket": "win/diag",
+     "cell": 8,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 280.6,
+     "server_ms": null,
+     "input_tokens": 470,
+     "confidence": null,
+     "bucket": "win/diag",
+     "cell": 0,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 392.6,
+     "server_ms": null,
+     "input_tokens": 469,
+     "confidence": null,
+     "bucket": "win/row",
+     "cell": 2,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 285.7,
+     "server_ms": null,
+     "input_tokens": 469,
+     "confidence": null,
+     "bucket": "win/row",
+     "cell": 1,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 289.1,
+     "server_ms": null,
+     "input_tokens": 469,
+     "confidence": null,
+     "bucket": "win/row",
+     "cell": 5,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 276.6,
+     "server_ms": null,
+     "input_tokens": 638,
+     "confidence": null,
+     "bucket": "win/row",
+     "cell": 2,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 290.6,
+     "server_ms": null,
+     "input_tokens": 637,
+     "confidence": null,
+     "bucket": "win/row",
+     "cell": 7,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 343.9,
+     "server_ms": null,
+     "input_tokens": 470,
+     "confidence": null,
+     "bucket": "win/row",
+     "cell": 6,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 303.1,
+     "server_ms": null,
+     "input_tokens": 469,
+     "confidence": null,
+     "bucket": "win/row",
+     "cell": 6,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 296.9,
+     "server_ms": null,
+     "input_tokens": 470,
+     "confidence": null,
+     "bucket": "win/row",
+     "cell": 0,
+     "ok": true
+    }
+   ],
+   "games": {
+    "random": [
+     {
+      "result": "win",
+      "moves": [
+       5,
+       4,
+       0,
+       1,
+       6,
+       3,
+       8,
+       7
+      ]
+     },
+     {
+      "result": "win",
+      "moves": [
+       1,
+       4,
+       7,
+       0,
+       5,
+       3,
+       8,
+       6
+      ]
+     },
+     {
+      "result": "loss",
+      "moves": [
+       8,
+       4,
+       7,
+       3,
+       6
+      ]
+     },
+     {
+      "result": "loss",
+      "moves": [
+       1,
+       4,
+       7,
+       0,
+       6,
+       2,
+       3,
+       5,
+       8
+      ]
+     },
+     {
+      "result": "win",
+      "moves": [
+       2,
+       4,
+       6,
+       0,
+       1,
+       3,
+       5,
+       8
+      ]
+     }
+    ],
+    "minimax": [
+     {
+      "result": "loss",
+      "moves": [
+       5,
+       4,
+       0,
+       2,
+       6,
+       1,
+       3
+      ]
+     },
+     {
+      "result": "loss",
+      "moves": [
+       1,
+       4,
+       8,
+       2,
+       6,
+       3,
+       7
+      ]
+     },
+     {
+      "result": "loss",
+      "moves": [
+       8,
+       4,
+       7,
+       3,
+       6
+      ]
+     },
+     {
+      "result": "loss",
+      "moves": [
+       1,
+       4,
+       8,
+       2,
+       6,
+       3,
+       7
+      ]
+     },
+     {
+      "result": "loss",
+      "moves": [
+       2,
+       4,
+       6,
+       5,
+       3,
+       0,
+       8,
+       1,
+       7
+      ]
+     }
+    ]
+   }
+  },
+  "full_rules": {
+   "tactics": [
+    {
+     "calls": 1,
+     "client_ms": 317.1,
+     "server_ms": null,
+     "input_tokens": 906,
+     "confidence": 0.18,
+     "bucket": "block/col",
+     "cell": 7,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 299.4,
+     "server_ms": null,
+     "input_tokens": 864,
+     "confidence": 0.15,
+     "bucket": "block/col",
+     "cell": 0,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 318.2,
+     "server_ms": null,
+     "input_tokens": 945,
+     "confidence": 0.4,
+     "bucket": "block/col",
+     "cell": 6,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 356.4,
+     "server_ms": null,
+     "input_tokens": 902,
+     "confidence": 0.36,
+     "bucket": "block/col",
+     "cell": 6,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 309.1,
+     "server_ms": null,
+     "input_tokens": 861,
+     "confidence": 0.19,
+     "bucket": "block/col",
+     "cell": 8,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 285.3,
+     "server_ms": null,
+     "input_tokens": 864,
+     "confidence": 0.0,
+     "bucket": "block/col",
+     "cell": 1,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 288.3,
+     "server_ms": null,
+     "input_tokens": 905,
+     "confidence": 0.38,
+     "bucket": "block/col",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 304.5,
+     "server_ms": null,
+     "input_tokens": 905,
+     "confidence": 0.24,
+     "bucket": "block/col",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 290.2,
+     "server_ms": null,
+     "input_tokens": 863,
+     "confidence": 0.18,
+     "bucket": "block/diag",
+     "cell": 0,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 286.9,
+     "server_ms": null,
+     "input_tokens": 906,
+     "confidence": 0.14,
+     "bucket": "block/diag",
+     "cell": 5,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 280.4,
+     "server_ms": null,
+     "input_tokens": 862,
+     "confidence": 0.32,
+     "bucket": "block/diag",
+     "cell": 6,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 286.7,
+     "server_ms": null,
+     "input_tokens": 947,
+     "confidence": 0.16,
+     "bucket": "block/diag",
+     "cell": 6,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 298.9,
+     "server_ms": null,
+     "input_tokens": 861,
+     "confidence": 0.27,
+     "bucket": "block/diag",
+     "cell": 8,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 292.4,
+     "server_ms": null,
+     "input_tokens": 861,
+     "confidence": 0.32,
+     "bucket": "block/diag",
+     "cell": 8,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 288.7,
+     "server_ms": null,
+     "input_tokens": 860,
+     "confidence": 0.01,
+     "bucket": "block/diag",
+     "cell": 6,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 310.9,
+     "server_ms": null,
+     "input_tokens": 906,
+     "confidence": 0.55,
+     "bucket": "block/diag",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 304.3,
+     "server_ms": null,
+     "input_tokens": 903,
+     "confidence": 0.23,
+     "bucket": "block/row",
+     "cell": 2,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 318.3,
+     "server_ms": null,
+     "input_tokens": 863,
+     "confidence": 0.3,
+     "bucket": "block/row",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 285.3,
+     "server_ms": null,
+     "input_tokens": 945,
+     "confidence": 0.21,
+     "bucket": "block/row",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 300.9,
+     "server_ms": null,
+     "input_tokens": 863,
+     "confidence": 0.23,
+     "bucket": "block/row",
+     "cell": 6,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 292.6,
+     "server_ms": null,
+     "input_tokens": 945,
+     "confidence": 0.37,
+     "bucket": "block/row",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 276.4,
+     "server_ms": null,
+     "input_tokens": 903,
+     "confidence": 0.39,
+     "bucket": "block/row",
+     "cell": 8,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 268.6,
+     "server_ms": null,
+     "input_tokens": 862,
+     "confidence": 0.32,
+     "bucket": "block/row",
+     "cell": 8,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 332.3,
+     "server_ms": null,
+     "input_tokens": 863,
+     "confidence": 0.09,
+     "bucket": "block/row",
+     "cell": 5,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 284.7,
+     "server_ms": null,
+     "input_tokens": 903,
+     "confidence": 0.17,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 289.2,
+     "server_ms": null,
+     "input_tokens": 863,
+     "confidence": 0.58,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 341.4,
+     "server_ms": null,
+     "input_tokens": 905,
+     "confidence": 0.42,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 318.4,
+     "server_ms": null,
+     "input_tokens": 945,
+     "confidence": 0.17,
+     "bucket": "quiet",
+     "cell": 0,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 286.7,
+     "server_ms": null,
+     "input_tokens": 946,
+     "confidence": 0.6,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 338.9,
+     "server_ms": null,
+     "input_tokens": 903,
+     "confidence": 0.5,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 305.0,
+     "server_ms": null,
+     "input_tokens": 945,
+     "confidence": 0.26,
+     "bucket": "quiet",
+     "cell": 7,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 305.0,
+     "server_ms": null,
+     "input_tokens": 903,
+     "confidence": 0.42,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 845.6,
+     "server_ms": null,
+     "input_tokens": 864,
+     "confidence": 0.16,
+     "bucket": "quiet",
+     "cell": 0,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 322.5,
+     "server_ms": null,
+     "input_tokens": 902,
+     "confidence": 0.4,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 300.7,
+     "server_ms": null,
+     "input_tokens": 945,
+     "confidence": 0.55,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 287.4,
+     "server_ms": null,
+     "input_tokens": 903,
+     "confidence": 0.27,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 316.7,
+     "server_ms": null,
+     "input_tokens": 945,
+     "confidence": 0.58,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 291.3,
+     "server_ms": null,
+     "input_tokens": 946,
+     "confidence": 0.45,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 288.6,
+     "server_ms": null,
+     "input_tokens": 947,
+     "confidence": 0.51,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 327.5,
+     "server_ms": null,
+     "input_tokens": 946,
+     "confidence": 0.45,
+     "bucket": "quiet",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 294.5,
+     "server_ms": null,
+     "input_tokens": 903,
+     "confidence": 0.15,
+     "bucket": "win/col",
+     "cell": 7,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 282.2,
+     "server_ms": null,
+     "input_tokens": 904,
+     "confidence": 0.52,
+     "bucket": "win/col",
+     "cell": 6,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 296.1,
+     "server_ms": null,
+     "input_tokens": 863,
+     "confidence": 0.48,
+     "bucket": "win/col",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 294.4,
+     "server_ms": null,
+     "input_tokens": 905,
+     "confidence": 0.43,
+     "bucket": "win/col",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 293.8,
+     "server_ms": null,
+     "input_tokens": 863,
+     "confidence": 0.56,
+     "bucket": "win/col",
+     "cell": 6,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 284.7,
+     "server_ms": null,
+     "input_tokens": 862,
+     "confidence": 0.32,
+     "bucket": "win/col",
+     "cell": 6,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 301.6,
+     "server_ms": null,
+     "input_tokens": 905,
+     "confidence": 0.63,
+     "bucket": "win/col",
+     "cell": 7,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 311.6,
+     "server_ms": null,
+     "input_tokens": 905,
+     "confidence": 0.43,
+     "bucket": "win/col",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 299.7,
+     "server_ms": null,
+     "input_tokens": 904,
+     "confidence": 0.24,
+     "bucket": "win/diag",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 276.5,
+     "server_ms": null,
+     "input_tokens": 860,
+     "confidence": 0.34,
+     "bucket": "win/diag",
+     "cell": 6,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 295.2,
+     "server_ms": null,
+     "input_tokens": 863,
+     "confidence": 0.32,
+     "bucket": "win/diag",
+     "cell": 7,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 288.0,
+     "server_ms": null,
+     "input_tokens": 863,
+     "confidence": 0.61,
+     "bucket": "win/diag",
+     "cell": 4,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 350.0,
+     "server_ms": null,
+     "input_tokens": 902,
+     "confidence": 0.4,
+     "bucket": "win/diag",
+     "cell": 8,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 278.3,
+     "server_ms": null,
+     "input_tokens": 905,
+     "confidence": 0.16,
+     "bucket": "win/diag",
+     "cell": 2,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 274.9,
+     "server_ms": null,
+     "input_tokens": 860,
+     "confidence": 0.15,
+     "bucket": "win/diag",
+     "cell": 6,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 714.6,
+     "server_ms": null,
+     "input_tokens": 862,
+     "confidence": 0.04,
+     "bucket": "win/diag",
+     "cell": 0,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 310.2,
+     "server_ms": null,
+     "input_tokens": 862,
+     "confidence": 0.47,
+     "bucket": "win/row",
+     "cell": 2,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 307.4,
+     "server_ms": null,
+     "input_tokens": 864,
+     "confidence": 0.05,
+     "bucket": "win/row",
+     "cell": 1,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 307.7,
+     "server_ms": null,
+     "input_tokens": 862,
+     "confidence": 0.4,
+     "bucket": "win/row",
+     "cell": 5,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 302.8,
+     "server_ms": null,
+     "input_tokens": 903,
+     "confidence": 0.55,
+     "bucket": "win/row",
+     "cell": 2,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 304.6,
+     "server_ms": null,
+     "input_tokens": 905,
+     "confidence": 0.2,
+     "bucket": "win/row",
+     "cell": 4,
+     "ok": false
+    },
+    {
+     "calls": 1,
+     "client_ms": 285.1,
+     "server_ms": null,
+     "input_tokens": 862,
+     "confidence": 0.14,
+     "bucket": "win/row",
+     "cell": 6,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 292.9,
+     "server_ms": null,
+     "input_tokens": 862,
+     "confidence": 0.21,
+     "bucket": "win/row",
+     "cell": 6,
+     "ok": true
+    },
+    {
+     "calls": 1,
+     "client_ms": 317.3,
+     "server_ms": null,
+     "input_tokens": 863,
+     "confidence": 0.21,
+     "bucket": "win/row",
+     "cell": 7,
+     "ok": false
+    }
+   ],
+   "games": {
+    "random": [
+     {
+      "result": "draw",
+      "moves": [
+       5,
+       4,
+       0,
+       8,
+       3,
+       6,
+       7,
+       1,
+       2
+      ]
+     },
+     {
+      "result": "win",
+      "moves": [
+       1,
+       4,
+       7,
+       0,
+       5,
+       8
+      ]
+     },
+     {
+      "result": "loss",
+      "moves": [
+       8,
+       4,
+       7,
+       6,
+       5,
+       3,
+       0,
+       1,
+       2
+      ]
+     },
+     {
+      "result": "win",
+      "moves": [
+       1,
+       4,
+       7,
+       0,
+       6,
+       8
+      ]
+     },
+     {
+      "result": "win",
+      "moves": [
+       2,
+       4,
+       6,
+       0,
+       1,
+       8
+      ]
+     }
+    ],
+    "minimax": [
+     {
+      "result": "loss",
+      "moves": [
+       5,
+       4,
+       0,
+       8,
+       6,
+       7,
+       3
+      ]
+     },
+     {
+      "result": "loss",
+      "moves": [
+       1,
+       4,
+       8,
+       7,
+       2,
+       6,
+       5
+      ]
+     },
+     {
+      "result": "draw",
+      "moves": [
+       8,
+       4,
+       7,
+       6,
+       2,
+       5,
+       3,
+       0,
+       1
+      ]
+     },
+     {
+      "result": "loss",
+      "moves": [
+       1,
+       4,
+       8,
+       7,
+       2,
+       6,
+       0
+      ]
+     },
+     {
+      "result": "loss",
+      "moves": [
+       2,
+       4,
+       6,
+       0,
+       8,
+       1,
+       5
+      ]
+     }
+    ]
+   }
+  }
+ },
+ "wall_s": 154.2,
+ "total_input_tokens": 283772,
+ "total_calls": 446
+}

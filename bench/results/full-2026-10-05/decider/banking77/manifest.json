@@ -1,0 +1,22 @@
+{
+ "sessions": [
+  {
+   "task": "banking77",
+   "backend": "decider",
+   "url": "http://127.0.0.1:8099/v1/systemone",
+   "model_field": "strands-decider-2B-hobson-v19",
+   "n_items": 3080,
+   "items_sha256": "0d2f5e51c4380a23dfb3a27597fadf2d5eb08eec35cee00b29bc0ffba2e08681",
+   "resumed_skipping": 0,
+   "concurrency": 1,
+   "started_utc": "2026-10-05T06:10:08.329645+00:00",
+   "host": "<ec2-instance>",
+   "variant": "default",
+   "seed": 0,
+   "limit": null,
+   "finished_utc": "2026-10-05T06:18:04.647215+00:00",
+   "wall_s": 476.3,
+   "errors_this_session": 0
+  }
+ ]
+}

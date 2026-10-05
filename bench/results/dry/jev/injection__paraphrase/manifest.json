@@ -1,0 +1,22 @@
+{
+ "sessions": [
+  {
+   "task": "injection",
+   "backend": "jev",
+   "url": "https://api.typesafe.ai/v1/systemone",
+   "model_field": "jev-latest",
+   "n_items": 10,
+   "items_sha256": "8ace3a182bc0b0d60773bc3b1fd8acc036fa5a4f8b4f08fa7ac15639224b22e7",
+   "resumed_skipping": 0,
+   "concurrency": 1,
+   "started_utc": "2026-10-05T05:18:38.537270+00:00",
+   "host": "<laptop>",
+   "variant": "paraphrase",
+   "seed": 0,
+   "limit": 10,
+   "finished_utc": "2026-10-05T05:18:41.722597+00:00",
+   "wall_s": 3.2,
+   "errors_this_session": 0
+  }
+ ]
+}

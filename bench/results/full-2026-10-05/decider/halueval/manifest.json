@@ -1,0 +1,22 @@
+{
+ "sessions": [
+  {
+   "task": "halueval",
+   "backend": "decider",
+   "url": "http://127.0.0.1:8099/v1/systemone",
+   "model_field": "strands-decider-2B-hobson-v19",
+   "n_items": 1000,
+   "items_sha256": "a07f43e5a083d30a503a7ef12d05b8b2be5f9a885bd5dbd67531affd810ff99b",
+   "resumed_skipping": 0,
+   "concurrency": 1,
+   "started_utc": "2026-10-05T06:40:14.963223+00:00",
+   "host": "<ec2-instance>",
+   "variant": "default",
+   "seed": 0,
+   "limit": null,
+   "finished_utc": "2026-10-05T06:41:24.544815+00:00",
+   "wall_s": 69.6,
+   "errors_this_session": 0
+  }
+ ]
+}

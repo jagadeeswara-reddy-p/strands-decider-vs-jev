@@ -1,0 +1,3 @@
+[decider] when2call: 3652 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/full-2026-10-05/decider/when2call
+  [decider/when2call] 50/3652 errors=39 0.1 items/s
+  [decider/when2call] 100/3652 errors=53 0.2 items/s

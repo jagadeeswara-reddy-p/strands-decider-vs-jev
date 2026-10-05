@@ -1,0 +1,22 @@
+{
+ "sessions": [
+  {
+   "task": "halueval",
+   "backend": "jev",
+   "url": "https://api.typesafe.ai/v1/systemone",
+   "model_field": "jev-latest",
+   "n_items": 1000,
+   "items_sha256": "a07f43e5a083d30a503a7ef12d05b8b2be5f9a885bd5dbd67531affd810ff99b",
+   "resumed_skipping": 0,
+   "concurrency": 4,
+   "started_utc": "2026-10-05T05:48:03.279545+00:00",
+   "host": "<laptop>",
+   "variant": "default",
+   "seed": 0,
+   "limit": null,
+   "finished_utc": "2026-10-05T05:49:21.905723+00:00",
+   "wall_s": 78.6,
+   "errors_this_session": 0
+  }
+ ]
+}

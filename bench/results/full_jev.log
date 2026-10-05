@@ -1,0 +1,415 @@
+[jev] when2call: 3652 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/full-2026-10-05/jev/when2call
+  [jev/when2call] 50/3652 errors=0 11.0 items/s
+  [jev/when2call] 100/3652 errors=0 11.6 items/s
+  [jev/when2call] 150/3652 errors=0 11.6 items/s
+  [jev/when2call] 200/3652 errors=0 11.8 items/s
+  [jev/when2call] 250/3652 errors=0 11.9 items/s
+  [jev/when2call] 300/3652 errors=0 12.0 items/s
+  [jev/when2call] 350/3652 errors=0 12.0 items/s
+  [jev/when2call] 400/3652 errors=0 12.0 items/s
+  [jev/when2call] 450/3652 errors=0 12.1 items/s
+  [jev/when2call] 500/3652 errors=0 12.1 items/s
+  [jev/when2call] 550/3652 errors=0 12.0 items/s
+  [jev/when2call] 600/3652 errors=0 11.9 items/s
+  [jev/when2call] 650/3652 errors=0 11.9 items/s
+  [jev/when2call] 700/3652 errors=0 12.0 items/s
+  [jev/when2call] 750/3652 errors=0 12.0 items/s
+  [jev/when2call] 800/3652 errors=0 12.0 items/s
+  [jev/when2call] 850/3652 errors=0 12.0 items/s
+  [jev/when2call] 900/3652 errors=0 12.0 items/s
+  [jev/when2call] 950/3652 errors=0 12.0 items/s
+  [jev/when2call] 1000/3652 errors=0 12.0 items/s
+  [jev/when2call] 1050/3652 errors=0 12.0 items/s
+  [jev/when2call] 1100/3652 errors=0 12.1 items/s
+  [jev/when2call] 1150/3652 errors=0 12.1 items/s
+  [jev/when2call] 1200/3652 errors=0 12.1 items/s
+  [jev/when2call] 1250/3652 errors=0 12.1 items/s
+  [jev/when2call] 1300/3652 errors=0 12.1 items/s
+  [jev/when2call] 1350/3652 errors=0 12.1 items/s
+  [jev/when2call] 1400/3652 errors=0 12.1 items/s
+  [jev/when2call] 1450/3652 errors=0 12.1 items/s
+  [jev/when2call] 1500/3652 errors=0 12.1 items/s
+  [jev/when2call] 1550/3652 errors=0 12.1 items/s
+  [jev/when2call] 1600/3652 errors=0 12.1 items/s
+  [jev/when2call] 1650/3652 errors=0 12.1 items/s
+  [jev/when2call] 1700/3652 errors=0 12.1 items/s
+  [jev/when2call] 1750/3652 errors=0 12.1 items/s
+  [jev/when2call] 1800/3652 errors=0 12.1 items/s
+  [jev/when2call] 1850/3652 errors=0 12.1 items/s
+  [jev/when2call] 1900/3652 errors=0 12.1 items/s
+  [jev/when2call] 1950/3652 errors=0 12.1 items/s
+  [jev/when2call] 2000/3652 errors=0 12.1 items/s
+  [jev/when2call] 2050/3652 errors=0 12.1 items/s
+  [jev/when2call] 2100/3652 errors=0 12.1 items/s
+  [jev/when2call] 2150/3652 errors=0 12.1 items/s
+  [jev/when2call] 2200/3652 errors=0 12.1 items/s
+  [jev/when2call] 2250/3652 errors=0 12.1 items/s
+  [jev/when2call] 2300/3652 errors=0 12.1 items/s
+  [jev/when2call] 2350/3652 errors=0 12.1 items/s
+  [jev/when2call] 2400/3652 errors=0 12.1 items/s
+  [jev/when2call] 2450/3652 errors=0 12.1 items/s
+  [jev/when2call] 2500/3652 errors=0 12.1 items/s
+  [jev/when2call] 2550/3652 errors=0 12.1 items/s
+  [jev/when2call] 2600/3652 errors=0 12.1 items/s
+  [jev/when2call] 2650/3652 errors=0 12.1 items/s
+  [jev/when2call] 2700/3652 errors=0 12.1 items/s
+  [jev/when2call] 2750/3652 errors=0 12.2 items/s
+  [jev/when2call] 2800/3652 errors=0 12.2 items/s
+  [jev/when2call] 2850/3652 errors=0 12.2 items/s
+  [jev/when2call] 2900/3652 errors=0 12.2 items/s
+  [jev/when2call] 2950/3652 errors=0 12.2 items/s
+  [jev/when2call] 3000/3652 errors=0 12.2 items/s
+  [jev/when2call] 3050/3652 errors=0 12.2 items/s
+  [jev/when2call] 3100/3652 errors=0 12.2 items/s
+  [jev/when2call] 3150/3652 errors=0 12.2 items/s
+  [jev/when2call] 3200/3652 errors=0 12.2 items/s
+  [jev/when2call] 3250/3652 errors=0 12.2 items/s
+  [jev/when2call] 3300/3652 errors=0 12.2 items/s
+  [jev/when2call] 3350/3652 errors=0 12.2 items/s
+  [jev/when2call] 3400/3652 errors=0 12.2 items/s
+  [jev/when2call] 3450/3652 errors=0 12.2 items/s
+  [jev/when2call] 3500/3652 errors=0 12.2 items/s
+  [jev/when2call] 3550/3652 errors=0 12.2 items/s
+  [jev/when2call] 3600/3652 errors=0 12.2 items/s
+  [jev/when2call] 3650/3652 errors=0 12.2 items/s
+  [jev/when2call] 3652/3652 errors=0 12.2 items/s
+[jev] banking77: 3080 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/full-2026-10-05/jev/banking77
+  [jev/banking77] 50/3080 errors=0 12.1 items/s
+  [jev/banking77] 100/3080 errors=0 12.5 items/s
+  [jev/banking77] 150/3080 errors=0 12.3 items/s
+  [jev/banking77] 200/3080 errors=0 12.5 items/s
+  [jev/banking77] 250/3080 errors=0 12.7 items/s
+  [jev/banking77] 300/3080 errors=0 12.7 items/s
+  [jev/banking77] 350/3080 errors=0 12.7 items/s
+  [jev/banking77] 400/3080 errors=0 12.8 items/s
+  [jev/banking77] 450/3080 errors=0 12.8 items/s
+  [jev/banking77] 500/3080 errors=0 12.8 items/s
+  [jev/banking77] 550/3080 errors=0 12.9 items/s
+  [jev/banking77] 600/3080 errors=0 12.8 items/s
+  [jev/banking77] 650/3080 errors=0 12.9 items/s
+  [jev/banking77] 700/3080 errors=0 12.8 items/s
+  [jev/banking77] 750/3080 errors=0 12.9 items/s
+  [jev/banking77] 800/3080 errors=0 12.9 items/s
+  [jev/banking77] 850/3080 errors=0 12.9 items/s
+  [jev/banking77] 900/3080 errors=0 12.9 items/s
+  [jev/banking77] 950/3080 errors=0 12.9 items/s
+  [jev/banking77] 1000/3080 errors=0 12.9 items/s
+  [jev/banking77] 1050/3080 errors=0 12.8 items/s
+  [jev/banking77] 1100/3080 errors=0 12.9 items/s
+  [jev/banking77] 1150/3080 errors=0 12.9 items/s
+  [jev/banking77] 1200/3080 errors=0 12.9 items/s
+  [jev/banking77] 1250/3080 errors=0 12.9 items/s
+  [jev/banking77] 1300/3080 errors=0 12.9 items/s
+  [jev/banking77] 1350/3080 errors=0 12.9 items/s
+  [jev/banking77] 1400/3080 errors=0 12.9 items/s
+  [jev/banking77] 1450/3080 errors=0 12.9 items/s
+  [jev/banking77] 1500/3080 errors=0 12.9 items/s
+  [jev/banking77] 1550/3080 errors=0 12.9 items/s
+  [jev/banking77] 1600/3080 errors=0 12.9 items/s
+  [jev/banking77] 1650/3080 errors=0 12.9 items/s
+  [jev/banking77] 1700/3080 errors=0 12.9 items/s
+  [jev/banking77] 1750/3080 errors=0 12.9 items/s
+  [jev/banking77] 1800/3080 errors=0 12.9 items/s
+  [jev/banking77] 1850/3080 errors=0 12.9 items/s
+  [jev/banking77] 1900/3080 errors=0 12.9 items/s
+  [jev/banking77] 1950/3080 errors=0 12.9 items/s
+  [jev/banking77] 2000/3080 errors=0 12.9 items/s
+  [jev/banking77] 2050/3080 errors=0 12.9 items/s
+  [jev/banking77] 2100/3080 errors=0 12.9 items/s
+  [jev/banking77] 2150/3080 errors=0 12.9 items/s
+  [jev/banking77] 2200/3080 errors=0 12.9 items/s
+  [jev/banking77] 2250/3080 errors=0 12.9 items/s
+  [jev/banking77] 2300/3080 errors=0 12.9 items/s
+  [jev/banking77] 2350/3080 errors=0 12.9 items/s
+  [jev/banking77] 2400/3080 errors=0 12.9 items/s
+  [jev/banking77] 2450/3080 errors=0 12.9 items/s
+  [jev/banking77] 2500/3080 errors=0 12.9 items/s
+  [jev/banking77] 2550/3080 errors=0 12.9 items/s
+  [jev/banking77] 2600/3080 errors=0 12.9 items/s
+  [jev/banking77] 2650/3080 errors=0 12.9 items/s
+  [jev/banking77] 2700/3080 errors=0 12.9 items/s
+  [jev/banking77] 2750/3080 errors=0 12.9 items/s
+  [jev/banking77] 2800/3080 errors=0 12.9 items/s
+  [jev/banking77] 2850/3080 errors=0 12.9 items/s
+  [jev/banking77] 2900/3080 errors=0 12.9 items/s
+  [jev/banking77] 2950/3080 errors=0 12.9 items/s
+  [jev/banking77] 3000/3080 errors=0 12.9 items/s
+  [jev/banking77] 3050/3080 errors=0 12.9 items/s
+  [jev/banking77] 3080/3080 errors=0 12.9 items/s
+[jev] clinc: 5500 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/full-2026-10-05/jev/clinc
+  [jev/clinc] 50/5500 errors=0 10.6 items/s
+  [jev/clinc] 100/5500 errors=0 11.3 items/s
+  [jev/clinc] 150/5500 errors=0 11.5 items/s
+  [jev/clinc] 200/5500 errors=0 11.6 items/s
+  [jev/clinc] 250/5500 errors=0 11.6 items/s
+  [jev/clinc] 300/5500 errors=0 11.7 items/s
+  [jev/clinc] 350/5500 errors=0 11.7 items/s
+  [jev/clinc] 400/5500 errors=0 11.7 items/s
+  [jev/clinc] 450/5500 errors=0 11.8 items/s
+  [jev/clinc] 500/5500 errors=0 11.8 items/s
+  [jev/clinc] 550/5500 errors=0 11.8 items/s
+  [jev/clinc] 600/5500 errors=0 11.7 items/s
+  [jev/clinc] 650/5500 errors=0 11.7 items/s
+  [jev/clinc] 700/5500 errors=0 11.7 items/s
+  [jev/clinc] 750/5500 errors=0 11.7 items/s
+  [jev/clinc] 800/5500 errors=0 11.7 items/s
+  [jev/clinc] 850/5500 errors=0 11.7 items/s
+  [jev/clinc] 900/5500 errors=0 11.7 items/s
+  [jev/clinc] 950/5500 errors=0 11.8 items/s
+  [jev/clinc] 1000/5500 errors=0 11.8 items/s
+  [jev/clinc] 1050/5500 errors=0 11.8 items/s
+  [jev/clinc] 1100/5500 errors=0 11.8 items/s
+  [jev/clinc] 1150/5500 errors=0 11.8 items/s
+  [jev/clinc] 1200/5500 errors=0 11.8 items/s
+  [jev/clinc] 1250/5500 errors=0 11.8 items/s
+  [jev/clinc] 1300/5500 errors=0 11.8 items/s
+  [jev/clinc] 1350/5500 errors=0 11.8 items/s
+  [jev/clinc] 1400/5500 errors=0 11.8 items/s
+  [jev/clinc] 1450/5500 errors=0 11.8 items/s
+  [jev/clinc] 1500/5500 errors=0 11.8 items/s
+  [jev/clinc] 1550/5500 errors=0 11.8 items/s
+  [jev/clinc] 1600/5500 errors=0 11.8 items/s
+  [jev/clinc] 1650/5500 errors=0 11.8 items/s
+  [jev/clinc] 1700/5500 errors=0 11.8 items/s
+  [jev/clinc] 1750/5500 errors=0 11.8 items/s
+  [jev/clinc] 1800/5500 errors=0 11.8 items/s
+  [jev/clinc] 1850/5500 errors=0 11.8 items/s
+  [jev/clinc] 1900/5500 errors=0 11.8 items/s
+  [jev/clinc] 1950/5500 errors=0 11.8 items/s
+  [jev/clinc] 2000/5500 errors=0 11.8 items/s
+  [jev/clinc] 2050/5500 errors=0 11.8 items/s
+  [jev/clinc] 2100/5500 errors=0 11.8 items/s
+  [jev/clinc] 2150/5500 errors=0 11.8 items/s
+  [jev/clinc] 2200/5500 errors=0 11.8 items/s
+  [jev/clinc] 2250/5500 errors=0 11.8 items/s
+  [jev/clinc] 2300/5500 errors=0 11.8 items/s
+  [jev/clinc] 2350/5500 errors=0 11.8 items/s
+  [jev/clinc] 2400/5500 errors=0 11.8 items/s
+  [jev/clinc] 2450/5500 errors=0 11.8 items/s
+  [jev/clinc] 2500/5500 errors=0 11.8 items/s
+  [jev/clinc] 2550/5500 errors=0 11.9 items/s
+  [jev/clinc] 2600/5500 errors=0 11.8 items/s
+  [jev/clinc] 2650/5500 errors=0 11.8 items/s
+  [jev/clinc] 2700/5500 errors=0 11.8 items/s
+  [jev/clinc] 2750/5500 errors=0 11.8 items/s
+  [jev/clinc] 2800/5500 errors=0 11.8 items/s
+  [jev/clinc] 2850/5500 errors=0 11.8 items/s
+  [jev/clinc] 2900/5500 errors=0 11.8 items/s
+  [jev/clinc] 2950/5500 errors=0 11.8 items/s
+  [jev/clinc] 3000/5500 errors=0 11.8 items/s
+  [jev/clinc] 3050/5500 errors=0 11.8 items/s
+  [jev/clinc] 3100/5500 errors=0 11.8 items/s
+  [jev/clinc] 3150/5500 errors=0 11.8 items/s
+  [jev/clinc] 3200/5500 errors=0 11.8 items/s
+  [jev/clinc] 3250/5500 errors=0 11.8 items/s
+  [jev/clinc] 3300/5500 errors=0 11.8 items/s
+  [jev/clinc] 3350/5500 errors=0 11.8 items/s
+  [jev/clinc] 3400/5500 errors=0 11.8 items/s
+  [jev/clinc] 3450/5500 errors=0 11.8 items/s
+  [jev/clinc] 3500/5500 errors=0 11.8 items/s
+  [jev/clinc] 3550/5500 errors=0 11.8 items/s
+  [jev/clinc] 3600/5500 errors=0 11.8 items/s
+  [jev/clinc] 3650/5500 errors=0 11.8 items/s
+  [jev/clinc] 3700/5500 errors=0 11.8 items/s
+  [jev/clinc] 3750/5500 errors=0 11.8 items/s
+  [jev/clinc] 3800/5500 errors=0 11.8 items/s
+  [jev/clinc] 3850/5500 errors=0 11.8 items/s
+  [jev/clinc] 3900/5500 errors=0 11.8 items/s
+  [jev/clinc] 3950/5500 errors=0 11.8 items/s
+  [jev/clinc] 4000/5500 errors=0 11.8 items/s
+  [jev/clinc] 4050/5500 errors=0 11.8 items/s
+  [jev/clinc] 4100/5500 errors=0 11.8 items/s
+  [jev/clinc] 4150/5500 errors=0 11.8 items/s
+  [jev/clinc] 4200/5500 errors=0 11.8 items/s
+  [jev/clinc] 4250/5500 errors=0 11.8 items/s
+  [jev/clinc] 4300/5500 errors=0 11.8 items/s
+  [jev/clinc] 4350/5500 errors=0 11.8 items/s
+  [jev/clinc] 4400/5500 errors=0 11.8 items/s
+  [jev/clinc] 4450/5500 errors=0 11.8 items/s
+  [jev/clinc] 4500/5500 errors=0 11.8 items/s
+  [jev/clinc] 4550/5500 errors=0 11.8 items/s
+  [jev/clinc] 4600/5500 errors=0 11.8 items/s
+  [jev/clinc] 4650/5500 errors=0 11.8 items/s
+  [jev/clinc] 4700/5500 errors=0 11.8 items/s
+  [jev/clinc] 4750/5500 errors=0 11.8 items/s
+  [jev/clinc] 4800/5500 errors=0 11.9 items/s
+  [jev/clinc] 4850/5500 errors=0 11.9 items/s
+  [jev/clinc] 4900/5500 errors=0 11.9 items/s
+  [jev/clinc] 4950/5500 errors=0 11.9 items/s
+  [jev/clinc] 5000/5500 errors=0 11.9 items/s
+  [jev/clinc] 5050/5500 errors=0 11.9 items/s
+  [jev/clinc] 5100/5500 errors=0 11.9 items/s
+  [jev/clinc] 5150/5500 errors=0 11.9 items/s
+  [jev/clinc] 5200/5500 errors=0 11.9 items/s
+  [jev/clinc] 5250/5500 errors=0 11.9 items/s
+  [jev/clinc] 5300/5500 errors=0 11.9 items/s
+  [jev/clinc] 5350/5500 errors=0 11.9 items/s
+  [jev/clinc] 5400/5500 errors=0 11.9 items/s
+  [jev/clinc] 5450/5500 errors=0 11.9 items/s
+  [jev/clinc] 5500/5500 errors=0 11.9 items/s
+[jev] injection: 116 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/full-2026-10-05/jev/injection
+  [jev/injection] 50/116 errors=0 12.3 items/s
+  [jev/injection] 100/116 errors=0 12.6 items/s
+  [jev/injection] 116/116 errors=0 12.7 items/s
+[jev] halueval: 1000 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/full-2026-10-05/jev/halueval
+  [jev/halueval] 50/1000 errors=0 11.7 items/s
+  [jev/halueval] 100/1000 errors=0 12.2 items/s
+  [jev/halueval] 150/1000 errors=0 12.3 items/s
+  [jev/halueval] 200/1000 errors=0 12.4 items/s
+  [jev/halueval] 250/1000 errors=0 12.5 items/s
+  [jev/halueval] 300/1000 errors=0 12.6 items/s
+  [jev/halueval] 350/1000 errors=0 12.7 items/s
+  [jev/halueval] 400/1000 errors=0 12.7 items/s
+  [jev/halueval] 450/1000 errors=0 12.8 items/s
+  [jev/halueval] 500/1000 errors=0 12.7 items/s
+  [jev/halueval] 550/1000 errors=0 12.7 items/s
+  [jev/halueval] 600/1000 errors=0 12.7 items/s
+  [jev/halueval] 650/1000 errors=0 12.7 items/s
+  [jev/halueval] 700/1000 errors=0 12.7 items/s
+  [jev/halueval] 750/1000 errors=0 12.7 items/s
+  [jev/halueval] 800/1000 errors=0 12.7 items/s
+  [jev/halueval] 850/1000 errors=0 12.7 items/s
+  [jev/halueval] 900/1000 errors=0 12.7 items/s
+  [jev/halueval] 950/1000 errors=0 12.7 items/s
+  [jev/halueval] 1000/1000 errors=0 12.7 items/s
+[jev] when2call__labeled: 3652 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/full-2026-10-05/jev/when2call__labeled
+  [jev/when2call] 50/3652 errors=0 11.8 items/s
+  [jev/when2call] 100/3652 errors=0 12.0 items/s
+  [jev/when2call] 150/3652 errors=0 12.2 items/s
+  [jev/when2call] 200/3652 errors=0 12.3 items/s
+  [jev/when2call] 250/3652 errors=0 12.3 items/s
+  [jev/when2call] 300/3652 errors=0 12.4 items/s
+  [jev/when2call] 350/3652 errors=0 12.4 items/s
+  [jev/when2call] 400/3652 errors=0 12.5 items/s
+  [jev/when2call] 450/3652 errors=0 12.5 items/s
+  [jev/when2call] 500/3652 errors=0 12.4 items/s
+  [jev/when2call] 550/3652 errors=0 12.5 items/s
+  [jev/when2call] 600/3652 errors=0 12.5 items/s
+  [jev/when2call] 650/3652 errors=0 12.5 items/s
+  [jev/when2call] 700/3652 errors=0 12.4 items/s
+  [jev/when2call] 750/3652 errors=0 12.4 items/s
+  [jev/when2call] 800/3652 errors=0 12.5 items/s
+  [jev/when2call] 850/3652 errors=0 12.5 items/s
+  [jev/when2call] 900/3652 errors=0 12.5 items/s
+  [jev/when2call] 950/3652 errors=0 12.5 items/s
+  [jev/when2call] 1000/3652 errors=0 12.5 items/s
+  [jev/when2call] 1050/3652 errors=0 12.5 items/s
+  [jev/when2call] 1100/3652 errors=0 12.5 items/s
+  [jev/when2call] 1150/3652 errors=0 12.5 items/s
+  [jev/when2call] 1200/3652 errors=0 12.5 items/s
+  [jev/when2call] 1250/3652 errors=0 12.3 items/s
+  [jev/when2call] 1300/3652 errors=0 12.3 items/s
+  [jev/when2call] 1350/3652 errors=0 12.3 items/s
+  [jev/when2call] 1400/3652 errors=0 12.3 items/s
+  [jev/when2call] 1450/3652 errors=0 12.4 items/s
+  [jev/when2call] 1500/3652 errors=0 12.3 items/s
+  [jev/when2call] 1550/3652 errors=0 12.3 items/s
+  [jev/when2call] 1600/3652 errors=0 12.3 items/s
+  [jev/when2call] 1650/3652 errors=0 12.3 items/s
+  [jev/when2call] 1700/3652 errors=0 12.4 items/s
+  [jev/when2call] 1750/3652 errors=0 12.4 items/s
+  [jev/when2call] 1800/3652 errors=0 12.4 items/s
+  [jev/when2call] 1850/3652 errors=0 12.4 items/s
+  [jev/when2call] 1900/3652 errors=0 12.4 items/s
+  [jev/when2call] 1950/3652 errors=0 12.4 items/s
+  [jev/when2call] 2000/3652 errors=0 12.4 items/s
+  [jev/when2call] 2050/3652 errors=0 12.4 items/s
+  [jev/when2call] 2100/3652 errors=0 12.4 items/s
+  [jev/when2call] 2150/3652 errors=0 12.4 items/s
+  [jev/when2call] 2200/3652 errors=0 12.4 items/s
+  [jev/when2call] 2250/3652 errors=0 12.4 items/s
+  [jev/when2call] 2300/3652 errors=0 12.4 items/s
+  [jev/when2call] 2350/3652 errors=0 12.4 items/s
+  [jev/when2call] 2400/3652 errors=0 12.4 items/s
+  [jev/when2call] 2450/3652 errors=0 12.4 items/s
+  [jev/when2call] 2500/3652 errors=0 12.4 items/s
+  [jev/when2call] 2550/3652 errors=0 12.4 items/s
+  [jev/when2call] 2600/3652 errors=0 12.4 items/s
+  [jev/when2call] 2650/3652 errors=0 12.4 items/s
+  [jev/when2call] 2700/3652 errors=0 12.4 items/s
+  [jev/when2call] 2750/3652 errors=0 12.4 items/s
+  [jev/when2call] 2800/3652 errors=0 12.4 items/s
+  [jev/when2call] 2850/3652 errors=0 12.4 items/s
+  [jev/when2call] 2900/3652 errors=0 12.4 items/s
+  [jev/when2call] 2950/3652 errors=0 12.4 items/s
+  [jev/when2call] 3000/3652 errors=0 12.4 items/s
+  [jev/when2call] 3050/3652 errors=0 12.4 items/s
+  [jev/when2call] 3100/3652 errors=0 12.4 items/s
+  [jev/when2call] 3150/3652 errors=0 12.4 items/s
+  [jev/when2call] 3200/3652 errors=0 12.5 items/s
+  [jev/when2call] 3250/3652 errors=0 12.5 items/s
+  [jev/when2call] 3300/3652 errors=0 12.5 items/s
+  [jev/when2call] 3350/3652 errors=0 12.5 items/s
+  [jev/when2call] 3400/3652 errors=0 12.5 items/s
+  [jev/when2call] 3450/3652 errors=0 12.5 items/s
+  [jev/when2call] 3500/3652 errors=0 12.5 items/s
+  [jev/when2call] 3550/3652 errors=0 12.5 items/s
+  [jev/when2call] 3600/3652 errors=0 12.5 items/s
+  [jev/when2call] 3650/3652 errors=0 12.5 items/s
+  [jev/when2call] 3652/3652 errors=0 12.5 items/s
+[jev] injection__paraphrase: 116 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/full-2026-10-05/jev/injection__paraphrase
+  [jev/injection] 50/116 errors=0 12.5 items/s
+  [jev/injection] 100/116 errors=0 12.5 items/s
+  [jev/injection] 116/116 errors=0 12.6 items/s
+[jevbench] adapter=typesafe endpoint=https://api.typesafe.ai tasks=231 cap=$2.0 ledger=/home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/full-2026-10-05/jev/jevbench/ledger.jsonl
+10/231 completed
+20/231 completed
+30/231 completed
+40/231 completed
+50/231 completed
+60/231 completed
+70/231 completed
+80/231 completed
+90/231 completed
+100/231 completed
+110/231 completed
+120/231 completed
+130/231 completed
+140/231 completed
+150/231 completed
+160/231 completed
+170/231 completed
+180/231 completed
+190/231 completed
+200/231 completed
+210/231 completed
+220/231 completed
+230/231 completed
+[jevbench] done: 231/231 attempted, 0 failed; charged=$0.0089
+[jevbench] public export -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/full-2026-10-05/jev/jevbench/summary.json
+          }
+        ],
+        "ece": 0.031789321789321645,
+        "n": 231
+      },
+      "latency": {
+        "n": 231,
+        "p50_s": 0.3862571790232323,
+        "p95_s": 0.456828629001393
+      },
+      "latency_failures": {
+        "n": 0,
+        "p50_s": null,
+        "p95_s": null
+      },
+      "n_attempted": 231,
+      "n_correct": 198,
+      "n_planned": 231,
+      "n_renormalized": 2,
+      "n_scorable": 231,
+      "n_valid": 231,
+      "operational_success": 1.0,
+      "ordinal_mae": 0.17166666666666666,
+      "price_per_1000_decisions_usd": 0.03841981818181819,
+      "schema_validity": 1.0,
+      "schema_validity_strict": 0.9913419913419913
+    }
+  },
+  "version": "jevbench-v1"
+}
+[jev] banking77: 200 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/latency-2026-10-05/jev/banking77
+  [jev/banking77] 50/200 errors=0 3.1 items/s
+  [jev/banking77] 100/200 errors=0 3.2 items/s
+  [jev/banking77] 150/200 errors=0 3.2 items/s
+  [jev/banking77] 200/200 errors=0 3.2 items/s
+./run_full.sh: line 18: un: command not found

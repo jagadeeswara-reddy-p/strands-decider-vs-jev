@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Strands Decider vs Jev | Technical Benchmark</title>
+<style>
+@page { size: A4; margin: 18mm 16mm 17mm; }
+:root { --ink:#17212b; --muted:#536273; --line:#d8e0e7; --blue:#0b5cad; --blue-soft:#eaf3fc; --green:#13795b; --green-soft:#e9f7f1; --amber:#9a5b00; --amber-soft:#fff4df; --red:#a43d3d; }
+* { box-sizing:border-box; }
+body { font-family: Arial, Helvetica, sans-serif; color:var(--ink); line-height:1.42; font-size:10.2pt; margin:0; }
+h1,h2,h3 { line-height:1.12; margin:0 0 8px; }
+h1 { font-size:29pt; letter-spacing:-.6px; }
+h2 { font-size:17pt; border-bottom:2px solid var(--blue); padding-bottom:5px; margin-top:20px; }
+h3 { font-size:12pt; color:var(--blue); margin-top:13px; }
+p { margin:6px 0 9px; }
+ul { margin:5px 0 10px 18px; padding:0; }
+li { margin:3px 0; }
+.small { font-size:8.5pt; color:var(--muted); }
+.cover { min-height:245mm; display:flex; flex-direction:column; justify-content:space-between; page-break-after:always; }
+.kicker { color:var(--blue); font-size:11pt; font-weight:bold; text-transform:uppercase; letter-spacing:1.5px; }
+.subtitle { font-size:15pt; color:var(--muted); max-width:145mm; }
+.cover-meta { border-top:1px solid var(--line); padding-top:12px; color:var(--muted); }
+.callout { border-left:4px solid var(--blue); background:var(--blue-soft); padding:10px 12px; margin:10px 0; }
+.verdict { border:1px solid #b7d8c9; background:var(--green-soft); padding:12px 14px; margin:12px 0; }
+.warn { border-left-color:var(--amber); background:var(--amber-soft); }
+.grid { display:grid; grid-template-columns:repeat(3,1fr); gap:8px; margin:10px 0; }
+.card { border:1px solid var(--line); padding:9px; min-height:57px; }
+.card strong { display:block; font-size:16pt; color:var(--blue); }
+.card span { color:var(--muted); font-size:8.5pt; }
+table { border-collapse:collapse; width:100%; margin:8px 0 12px; font-size:8.7pt; }
+th { background:#e9f1f8; text-align:left; color:#153958; }
+th,td { border:1px solid var(--line); padding:5px 6px; vertical-align:top; }
+.num { text-align:right; white-space:nowrap; }
+.win { font-weight:bold; color:var(--green); }
+.section { page-break-before:always; }
+.keep { break-inside:avoid; }
+.tag { display:inline-block; padding:2px 6px; border-radius:9px; font-size:8pt; background:#edf1f4; color:#3d4a55; }
+footer { color:var(--muted); font-size:8pt; border-top:1px solid var(--line); margin-top:20px; padding-top:5px; }
+.arch { display:grid; grid-template-columns:1fr 1fr 1fr; gap:8px; align-items:stretch; margin:12px 0; }
+.arch div { border:1px solid var(--line); padding:10px; text-align:center; background:#fafcfd; }
+.arrow { display:flex; align-items:center; justify-content:center; color:var(--blue); font-size:18pt; }
+code { background:#f1f4f6; padding:1px 3px; font-size:9pt; }
+</style>
+</head>
+<body>
+<section class="cover">
+  <div>
+    <div class="kicker">Internal technical evaluation · Run full-2026-10-05</div>
+    <h1>Strands Decider<br>vs TypeSafe Jev</h1>
+    <p class="subtitle">A workload-fit, operational-readiness, and economics comparison for decision workloads in agent and business workflows.</p>
+    <div class="verdict"><strong>Executive decision.</strong> Jev is the stronger general decision model and the safer default for tool gating, guardrails, and judging. Strands Decider is a credible open option for high-volume, plain intent routing, but the tested serving path is not production-ready: concurrent requests crash the server, and yes/no outputs require task-specific threshold calibration.</div>
+  </div>
+  <div>
+    <div class="grid">
+      <div class="card"><strong>5 / 6</strong><span>primary benchmark wins for Jev</span></div>
+      <div class="card"><strong>3,080</strong><span>Banking77 items where Decider won 84.1% vs 80.5%</span></div>
+      <div class="card"><strong>$3.67</strong><span>approximate study cost, internal only</span></div>
+    </div>
+
+  </div>
+</section>
+
+<h2>1. Decision summary</h2>
+<p>This study compares two systems that expose the same System One decision interface: a caller provides state and a constrained question, and the model chooses an option or returns a yes/no probability. The comparison is intentionally about classification, routing, tool-call gating, guardrails, and judging. It is not a test of open-ended generation or multi-step planning.</p>
+<table><tr><th>Workload</th><th>Measured result</th><th>Architecture implication</th></tr>
+<tr><td>General decision quality</td><td>Jev wins JevBench public, 85.7% vs 72.7%, p=9e-6.</td><td>Use Jev as the general-purpose decision layer.</td></tr>
+<tr><td>Tool-call gating</td><td>Jev 82.1% vs Decider 65.1%; tool hallucination 8.9% vs 26.2%.</td><td>Do not use the tested Decider path as an unguarded agent gate.</td></tr>
+<tr><td>Plain intent routing</td><td>Decider wins Banking77, 84.1% vs 80.5%. On CLINC, Jev leads 89.5% vs 82.2%.</td><td>Decider is viable for selected high-volume routing workloads after hardening.</td></tr>
+<tr><td>Binary guardrails and judging</td><td>Jev leads injection F1 0.681 vs 0.095 and HaluEval F1 0.864 vs 0.432.</td><td>Decider needs labelled calibration and a per-task threshold policy.</td></tr>
+<tr><td>Operations</td><td>Concurrent Decider requests caused a sticky CUDA assert. Jev completed 17,116 calls with no errors.</td><td>Queue or fix concurrency before production adoption.</td></tr>
+<tr><td>Input modality <span class="tag">capability, not measured</span></td><td>Decider accepts images with <code>--vision</code>; Jev 1.13 is text-only. Jev accepts long states up to 32k tokens; Decider is capped at 4,096.</td><td>Choose by input type: image/screenshot decisions favour Decider; long-context decisions favour Jev.</td></tr>
+</table>
+<div class="callout"><strong>Recommendation:</strong> adopt a workload-specific policy. Prefer Jev for safety-sensitive and agent-control decisions. Consider Decider for internal, high-volume, latency-sensitive intent routing only after concurrency, long-input handling, observability, and calibration gates are satisfied.</div>
+
+<h2>2. Systems and evaluation boundary</h2>
+<div class="arch"><div><strong>Caller</strong><br><span class="small">agent or workflow state<br>choice / noul question</span></div><div class="arrow">→</div><div><strong>Decision endpoint</strong><br><span class="small">identical JSON shape<br>constrained output + confidence</span></div><div><strong>Strands Decider</strong><br><span class="small">self-hosted EC2 g6.xlarge<br>L4 · local client · concurrency 1</span></div><div class="arrow">or</div><div><strong>TypeSafe Jev</strong><br><span class="small">hosted API<br>jev-1.13.0 observed</span></div></div>
+<table><tr><th>System</th><th>Version / deployment</th><th>Test condition</th></tr>
+<tr><td>Strands Decider</td><td><code>strands-decider-2B-hobson-v19</code> on Qwen Qwen3.5-2B-Base; GitHub serving commit <code>75c9fd3</code>; <code>--strict-window</code>; 4,096-token window; flash-linear-attention 0.5.2.</td><td>AWS EC2 g6.xlarge, NVIDIA L4, us-east-1. Client ran on the instance to remove tunnel overhead. Accuracy run at concurrency 1.</td></tr>
+<tr><td>TypeSafe Jev</td><td><code>jev-latest</code>, returning <code>jev-1.13.0</code> throughout the run.</td><td>Hosted API. Accuracy run from laptop at concurrency 4. Input payloads were byte-identical except for model.</td></tr>
+</table>
+<p class="small">The optional Nova/Bedrock baseline was not included in the final comparison. Claude on Bedrock was unavailable in the test account because of an organizational SCP.</p>
+
+<h2 class="section">3. Benchmarks and method</h2>
+<table><tr><th>ID</th><th>Dataset / task</th><th>n</th><th>Primary question</th></tr>
+<tr><td>B1</td><td>JevBench public, 18 families and three tiers</td><td>231</td><td>General System One decisions, including hard reasoning cases</td></tr>
+<tr><td>B2</td><td>NVIDIA When2Call</td><td>3,652</td><td>Call a tool, ask for information, cannot answer, or answer directly</td></tr>
+<tr><td>B3</td><td>Banking77</td><td>3,080</td><td>Customer-support intent routing across 77 classes</td></tr>
+<tr><td>B4</td><td>CLINC150 plus out-of-scope</td><td>5,500</td><td>Intent routing and recognition of none-of-the-listed intents</td></tr>
+<tr><td>B5</td><td>deepset prompt-injections</td><td>116</td><td>Prompt-injection guardrail classification</td></tr>
+<tr><td>B6</td><td>HaluEval QA subset</td><td>1,000</td><td>Groundedness / hallucination judging</td></tr>
+</table>
+<h3>Protocol controls</h3>
+<ul><li>Prompts were frozen and pre-registered before the full run. Both models received the same decision payloads.</li><li>Accuracy, macro-F1, calibration, selective accuracy at confidence thresholds, AUROC, latency, cost, and exact paired McNemar comparisons were recorded.</li><li>Decider received warm-up requests. Errors after six retries were counted and excluded from accuracy. Ten When2Call inputs above 4,096 tokens were rejected cleanly by strict-window mode.</li><li>End-to-end latency is directional only because Decider was measured on localhost and Jev over the internet from India. Decider server time is the fair model-only comparison.</li></ul>
+<div class="callout warn"><strong>Interpretation boundary:</strong> this is one run per system. It supports workload-fit decisions, not universal model rankings. Jev training data is unknown. HaluEval is derived from HotpotQA, which is in the Decider training mix, and Decider was iterated against the public JevBench set.</div>
+
+<h2 class="section">4. Primary results</h2>
+<table><tr><th>Benchmark</th><th>n</th><th>Decider</th><th>Jev</th><th>Paired result</th></tr>
+<tr><td>JevBench public</td><td>231</td><td>72.7%</td><td class="win">85.7%</td><td>Jev, p=9e-6</td></tr>
+<tr><td>When2Call neutral</td><td>3,652</td><td>65.1%</td><td class="win">82.1%</td><td>Jev, p=8e-90</td></tr>
+<tr><td>When2Call labelled</td><td>3,652</td><td>64.1%</td><td class="win">83.0%</td><td>Jev, p=5.7e-105</td></tr>
+<tr><td>Banking77</td><td>3,080</td><td class="win">84.1%</td><td>80.5%</td><td>Decider, p=4.1e-8</td></tr>
+<tr><td>CLINC150</td><td>5,500</td><td>82.2%</td><td class="win">89.5%</td><td>Jev, p=1.9e-46</td></tr>
+<tr><td>Prompt injection</td><td>116</td><td>50.9%</td><td class="win">75.0%</td><td>Jev, p=5.8e-8</td></tr>
+<tr><td>HaluEval <span class="tag">contamination risk</span></td><td>1,000</td><td>63.7%</td><td class="win">87.1%</td><td>Jev, p=4.8e-44</td></tr>
+</table>
+<h3>JevBench profile</h3>
+<table><tr><th>Tier</th><th>n</th><th>Decider</th><th>Jev</th></tr><tr><td>Easy</td><td>48</td><td>100%</td><td>100%</td></tr><tr><td>Original</td><td>72</td><td>90%</td><td>99%</td></tr><tr><td>Hard</td><td>111</td><td>50%</td><td>71%</td></tr></table>
+<p>The gap is concentrated in harder families such as multi-hop, long-policy, probability, and adversarial tasks. Both systems perform well on straightforward extraction, intent, and tool-selection subsets.</p>
+
+<h2 class="section">5. Workload-specific findings</h2>
+<h3>5.1 Tool-call gating is the main risk</h3>
+<p>On When2Call, Decider correctly identified tool calls 82.6% of the time and requests for missing information 78.4%, but recognised “cannot answer with the available tools” only 36.9% of the time. When no tools were offered, it was correct on 46.1% of items. It selected a tool when it should not have on 26.2% of items, compared with Jev at 8.9%.</p>
+<div class="verdict"><strong>Control recommendation:</strong> if Decider is used in an agent loop, add an explicit policy layer that validates tool eligibility, required arguments, tool availability, and an abstain/cannot-answer path. Do not treat the model's top option as authorization by itself.</div>
+<h3>5.2 Intent routing is the strongest Decider fit</h3>
+<p>Decider beat Jev on Banking77 and had lower ECE, 0.032 versus 0.091. On CLINC it trailed overall and was weaker at out-of-scope recall, 0.612 versus 0.852, although its out-of-scope precision was higher, 0.944 versus 0.873. This suggests a conservative router that can work well when the class inventory is stable and abstention is acceptable.</p>
+<h3>5.3 Binary outputs require calibration</h3>
+<p>At the default 0.5 threshold, Decider's positive F1 was 0.095 on injection and 0.432 on HaluEval. Its AUROC was materially better, 0.870 and 0.911, showing ranking signal rather than reliable default thresholding. The post-hoc best thresholds were fitted on the test set and are optimistic. A production implementation needs a held-out calibration set per question type.</p>
+
+<h2 class="section">6. Modalities and input limits</h2>
+<p>The two systems are not equivalent on input. This is a capability boundary that should drive architecture as much as the accuracy tables do. It was <strong>not</strong> benchmarked in this study; the figures below come from vendor and project documentation.</p>
+<table><tr><th>Dimension</th><th>Strands Decider v19</th><th>Jev 1.13</th></tr>
+<tr><td>Input modality</td><td>Text; images when served with <code>--vision</code> (no weight change; uses the vision tower in the base checkpoint).</td><td>Text only. Non-text inputs must be pre-processed into text or structured fields before being sent as <code>state</code>.</td></tr>
+<tr><td>Image handling</td><td>Up to 4 images per request, each scaled down so the longer side is at most 448 px (~196 tokens for a square image). Images count against the same 4,096-token window. A text-only server rejects image requests with HTTP 422.</td><td>None. Images, audio, video, and binaries are unsupported and must be converted upstream.</td></tr>
+<tr><td>Context window</td><td>4,096 tokens covering state, images, and all questions.</td><td>64k tokens per request; 32k for <code>state</code> plus the longest question. Multiple questions share one ingested state.</td></tr>
+<tr><td>Weights and hosting</td><td>Open checkpoint, self-hosted; vision tower adds about 331M parameters (~0.66 GB in bf16).</td><td>Hosted only, same weights for every account, shaped through the request rather than per-account adaptation.</td></tr>
+</table>
+<div class="callout warn"><strong>Unverified capability claims.</strong> The Decider project reports vision accuracy of 0.784 on NaturalBench, 0.877 on POPE-adversarial, and 37/60 on the Image-JevBench preview (one run, on an H100; not reproduced here). The same document notes that with the image removed the model still answers at a mean confidence of 0.65–0.73, so its image-conditioned confidence is not a strong grounding signal on its own. Treat these numbers as vendor-reported until independently reproduced.</div>
+<div class="callout"><strong>Architecture implication:</strong> for screenshot or photo triage, Decider is the only one of the two that can take the image directly. For long policy documents, transcripts, or multi-document states, Jev's 64k window is the deciding factor. Where an image decision is needed and the model must be Jev, a separate vision-to-text step has to be designed, owned, and monitored.</div>
+
+<h2 class="section">7. Confidence, latency, and economics</h2>
+<table><tr><th>Measure</th><th>Decider</th><th>Jev</th><th>Decision meaning</th></tr>
+<tr><td>Banking77 p50 / p95</td><td>154 / 157 ms</td><td>305 / 478 ms p50 / p99</td><td>Decider is lower latency in this topology.</td></tr>
+<tr><td>Model server time</td><td>66–237 ms p50 by task</td><td>Not exposed</td><td>Only Decider exposes model-side timing.</td></tr>
+<tr><td>Achieved throughput</td><td>4.2–6.5 decisions/s, concurrency 1</td><td>~12–13 decisions/s, concurrency 4</td><td>Concurrency crash dominates Decider's operational profile.</td></tr>
+<tr><td>Cost per 1,000</td><td>$0.015–$0.053 at full utilisation</td><td>$0.015–$0.106 measured input-token basis</td><td>Unit economics depend on utilisation and prompt size.</td></tr>
+<tr><td>Fixed infrastructure</td><td>$0.8048/hour, about $588/month always-on</td><td>No GPU fixed cost</td><td>Self-hosting requires sustained load to amortise the GPU.</td></tr>
+</table>
+<p>At the measured prompt sizes, the estimated break-even is approximately 6–10 million Jev decisions per month. One Decider box can serve at most about 13 million per month sequentially, and that comparison assumes full utilisation. This makes self-hosting economically attractive only for steady, high-volume workloads and only after serving reliability is fixed.</p>
+<h3>Confidence is useful but conservative</h3>
+<p>On Banking77, Decider was 97.8% accurate at confidence ≥0.9, but coverage was 48.3%. On When2Call, it was 97.4% accurate at that threshold with only 4.2% coverage. Jev had much higher coverage but was below 95% accuracy at ≥0.9 on several tasks. Confidence should therefore drive selective routing, not unconditional trust.</p>
+
+<h2 class="section">8. Operational readiness and target architecture</h2>
+<table><tr><th>Finding</th><th>Impact</th><th>Required gate</th></tr>
+<tr><td>Concurrent requests caused sticky CUDA device-side assert.</td><td>Service becomes unhealthy under parallel load.</td><td>Fix upstream or place a tested single-flight queue in front; add soak and failure-recovery tests.</td></tr>
+<tr><td>PyPI 0.1.0 long prompts could crash the GPU.</td><td>One malformed/long request could poison later requests.</td><td>Enforce request token limits before inference; retain strict-window behavior and return a typed rejection.</td></tr>
+<tr><td>Cold start was approximately 1–12 minutes after instance start.</td><td>Unsuitable for latency-sensitive scale-to-zero without warming.</td><td>Keep a warm capacity policy or accept startup SLO explicitly.</td></tr>
+<tr><td>Causal-conv1d used a fallback kernel.</td><td>Measured latency is not a best-case optimized path.</td><td>Re-measure after compatible kernel/toolchain support.</td></tr>
+<tr><td>Binary threshold is task-dependent.</td><td>Default yes/no policy creates false negatives.</td><td>Held-out calibration, threshold registry, drift monitoring, and rollback.</td></tr>
+</table>
+<div class="arch"><div><strong>Ingress</strong><br><span class="small">auth · schema validation<br>token budget · request ID</span></div><div><strong>Decision gateway</strong><br><span class="small">single-flight queue<br>timeout · circuit breaker<br>policy / abstention checks</span></div><div><strong>Model backend</strong><br><span class="small">Decider or Jev adapter<br>health and latency metrics<br>version pinning</span></div></div>
+<p>For a Decider deployment, the minimum production shape is not a direct caller-to-GPU connection. It is a decision gateway that validates inputs, enforces the context window, serializes or safely schedules requests, checks the selected action against policy, and exposes health, error, confidence, and calibration telemetry.</p>
+
+<h2 class="section">9. Recommendation and next steps</h2>
+<h3>Recommended now</h3>
+<ol><li><strong>Use Jev</strong> for production agent gating, guardrails, groundedness judging, and general decision workloads.</li><li><strong>Evaluate Decider selectively</strong> for stable, high-volume intent routing where self-hosting, data locality, or predictable model-side latency is a requirement.</li><li><strong>Do not claim cost savings from self-hosting by default.</strong> The GPU only wins economically near sustained high utilisation.</li></ol>
+<h3>Promotion gates for Decider</h3>
+<table><tr><th>Gate</th><th>Acceptance criterion</th></tr><tr><td>Reliability</td><td>Parallel load, queue saturation, restart, and malformed/over-window inputs complete without sticky GPU failure.</td></tr><tr><td>Quality</td><td>Meet workload-specific accuracy and false-action thresholds on a held-out representative set, not only public datasets.</td></tr><tr><td>Calibration</td><td>Per-task thresholds selected on validation data; confidence coverage and error rates monitored in production.</td></tr><tr><td>Economics</td><td>Forecasted utilisation exceeds the self-hosting break-even after capacity, storage, operations, and redundancy costs.</td></tr><tr><td>Governance</td><td>Versioned model/checkpoint, dataset lineage, audit logs, access controls, and rollback procedure are documented.</td></tr></table>
+<h3>Limitations</h3>
+<ul><li>One run per backend. No retraining or seed variance estimate.</li><li>End-to-end latency paths are not equivalent.</li><li>HaluEval contamination and JevBench selection pressure limit generalisation claims.</li><li>Prompt-injection dataset is small and uses a broad definition that includes role-play prompts.</li><li>Vision capability and accuracy are vendor-reported and were not reproduced in this study; only text decisions were benchmarked.</li><li>Tic-tac-toe pilot showed neither model plans reliably; these are decision classifiers, not game planners.</li></ul>
+<footer>Internal technical evaluation · Source files and raw evidence remain under <code>bench/</code> · Generated from the frozen run dated 2026-10-05</footer>
+</body></html>

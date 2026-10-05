@@ -1,0 +1,22 @@
+{
+ "sessions": [
+  {
+   "task": "clinc",
+   "backend": "decider",
+   "url": "http://127.0.0.1:8099/v1/systemone",
+   "model_field": "strands-decider-2B-hobson-v19",
+   "n_items": 5500,
+   "items_sha256": "1805d417176577c8fa78e8ddc26634554459e5fbd9540ea11bec79fcf26a35b6",
+   "resumed_skipping": 0,
+   "concurrency": 1,
+   "started_utc": "2026-10-05T06:18:06.344761+00:00",
+   "host": "<ec2-instance>",
+   "variant": "default",
+   "seed": 0,
+   "limit": null,
+   "finished_utc": "2026-10-05T06:40:05.711866+00:00",
+   "wall_s": 1319.4,
+   "errors_this_session": 0
+  }
+ ]
+}

@@ -1,0 +1,21 @@
+{
+  "adapter": "typesafe",
+  "charged_usd": 0.00014561400000000002,
+  "cost_basis": null,
+  "dataset_hash": "38a458ddf4e7e228a3d66beca76fde1a9b40b3b1132673d7aae819b34a77c3d5",
+  "delay_s": 0.0,
+  "endpoint": "https://api.typesafe.ai",
+  "finished_utc": "2026-10-05T05:18:45.643546+00:00",
+  "key_env_used": true,
+  "n_attempted": 10,
+  "n_planned": 10,
+  "price_input_per_m": 0.042,
+  "price_output_per_m": 0.0,
+  "request_options": {},
+  "requested_model": "jev-latest",
+  "resolved_models": [
+    "jev-1.13.0"
+  ],
+  "run_label": "jev-latest",
+  "started_utc": "2026-10-05T05:18:41.998319+00:00"
+}

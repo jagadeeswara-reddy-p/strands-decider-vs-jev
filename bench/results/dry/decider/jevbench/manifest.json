@@ -1,0 +1,21 @@
+{
+  "adapter": "typesafe",
+  "charged_usd": 0.0,
+  "cost_basis": "self_hosted_ec2_g6xlarge",
+  "dataset_hash": "38a458ddf4e7e228a3d66beca76fde1a9b40b3b1132673d7aae819b34a77c3d5",
+  "delay_s": 0.0,
+  "endpoint": "http://127.0.0.1:8199",
+  "finished_utc": "2026-10-05T05:19:58.520657+00:00",
+  "key_env_used": false,
+  "n_attempted": 10,
+  "n_planned": 10,
+  "price_input_per_m": null,
+  "price_output_per_m": null,
+  "request_options": {},
+  "requested_model": "strands-decider-2B-hobson-v19",
+  "resolved_models": [
+    "strands-decider-2B-hobson-v19"
+  ],
+  "run_label": "strands-decider-v19",
+  "started_utc": "2026-10-05T05:19:54.832968+00:00"
+}

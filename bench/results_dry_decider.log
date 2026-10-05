@@ -1,0 +1,22 @@
+[decider] when2call: 10 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/dry/decider/when2call
+  [decider/when2call] 10/10 errors=0 0.1 items/s
+[decider] banking77: 10 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/dry/decider/banking77
+  [decider/banking77] 10/10 errors=0 2.4 items/s
+[decider] clinc: 10 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/dry/decider/clinc
+  [decider/clinc] 10/10 errors=0 2.0 items/s
+[decider] injection: 10 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/dry/decider/injection
+  [decider/injection] 10/10 errors=0 2.5 items/s
+[decider] halueval: 10 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/dry/decider/halueval
+  [decider/halueval] 10/10 errors=0 2.3 items/s
+[decider] when2call__labeled: 10 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/dry/decider/when2call__labeled
+  [decider/when2call] 10/10 errors=0 2.0 items/s
+[decider] injection__paraphrase: 10 items -> /home/fl-lpt-867/projects/think-tank/strands-decider/bench/results/dry/decider/injection__paraphrase
+  [decider/injection] 10/10 errors=0 2.9 items/s
+      "ordinal_mae": null,
+      "price_per_1000_decisions_usd": null,
+      "schema_validity": 1.0,
+      "schema_validity_strict": 1.0
+    }
+  },
+  "version": "jevbench-v1"
+}

@@ -1,0 +1,416 @@
+[decider] when2call: 3652 items -> /opt/bench/results/full-2026-10-05/decider/when2call
+  [decider/when2call] 50/3652 errors=0 5.7 items/s
+  [decider/when2call] 100/3652 errors=0 5.6 items/s
+  [decider/when2call] 150/3652 errors=0 5.4 items/s
+  [decider/when2call] 200/3652 errors=0 5.3 items/s
+  [decider/when2call] 250/3652 errors=0 5.3 items/s
+  [decider/when2call] 300/3652 errors=0 5.3 items/s
+  [decider/when2call] 350/3652 errors=0 5.3 items/s
+  [decider/when2call] 400/3652 errors=0 5.3 items/s
+  [decider/when2call] 450/3652 errors=0 5.2 items/s
+  [decider/when2call] 500/3652 errors=1 5.3 items/s
+  [decider/when2call] 550/3652 errors=1 5.3 items/s
+  [decider/when2call] 600/3652 errors=1 5.3 items/s
+  [decider/when2call] 650/3652 errors=1 5.3 items/s
+  [decider/when2call] 700/3652 errors=1 5.3 items/s
+  [decider/when2call] 750/3652 errors=1 5.3 items/s
+  [decider/when2call] 800/3652 errors=1 5.4 items/s
+  [decider/when2call] 850/3652 errors=1 5.4 items/s
+  [decider/when2call] 900/3652 errors=2 5.4 items/s
+  [decider/when2call] 950/3652 errors=2 5.4 items/s
+  [decider/when2call] 1000/3652 errors=2 5.4 items/s
+  [decider/when2call] 1050/3652 errors=2 5.4 items/s
+  [decider/when2call] 1100/3652 errors=2 5.4 items/s
+  [decider/when2call] 1150/3652 errors=3 5.4 items/s
+  [decider/when2call] 1200/3652 errors=3 5.4 items/s
+  [decider/when2call] 1250/3652 errors=3 5.5 items/s
+  [decider/when2call] 1300/3652 errors=5 5.5 items/s
+  [decider/when2call] 1350/3652 errors=5 5.5 items/s
+  [decider/when2call] 1400/3652 errors=5 5.5 items/s
+  [decider/when2call] 1450/3652 errors=5 5.5 items/s
+  [decider/when2call] 1500/3652 errors=5 5.4 items/s
+  [decider/when2call] 1550/3652 errors=5 5.4 items/s
+  [decider/when2call] 1600/3652 errors=5 5.4 items/s
+  [decider/when2call] 1650/3652 errors=5 5.4 items/s
+  [decider/when2call] 1700/3652 errors=5 5.4 items/s
+  [decider/when2call] 1750/3652 errors=5 5.4 items/s
+  [decider/when2call] 1800/3652 errors=5 5.4 items/s
+  [decider/when2call] 1850/3652 errors=5 5.4 items/s
+  [decider/when2call] 1900/3652 errors=5 5.4 items/s
+  [decider/when2call] 1950/3652 errors=5 5.4 items/s
+  [decider/when2call] 2000/3652 errors=5 5.4 items/s
+  [decider/when2call] 2050/3652 errors=5 5.3 items/s
+  [decider/when2call] 2100/3652 errors=5 5.4 items/s
+  [decider/when2call] 2150/3652 errors=6 5.3 items/s
+  [decider/when2call] 2200/3652 errors=6 5.3 items/s
+  [decider/when2call] 2250/3652 errors=6 5.3 items/s
+  [decider/when2call] 2300/3652 errors=6 5.3 items/s
+  [decider/when2call] 2350/3652 errors=6 5.3 items/s
+  [decider/when2call] 2400/3652 errors=6 5.3 items/s
+  [decider/when2call] 2450/3652 errors=6 5.3 items/s
+  [decider/when2call] 2500/3652 errors=7 5.3 items/s
+  [decider/when2call] 2550/3652 errors=7 5.3 items/s
+  [decider/when2call] 2600/3652 errors=7 5.3 items/s
+  [decider/when2call] 2650/3652 errors=8 5.3 items/s
+  [decider/when2call] 2700/3652 errors=8 5.3 items/s
+  [decider/when2call] 2750/3652 errors=8 5.3 items/s
+  [decider/when2call] 2800/3652 errors=8 5.3 items/s
+  [decider/when2call] 2850/3652 errors=8 5.3 items/s
+  [decider/when2call] 2900/3652 errors=8 5.3 items/s
+  [decider/when2call] 2950/3652 errors=8 5.3 items/s
+  [decider/when2call] 3000/3652 errors=8 5.3 items/s
+  [decider/when2call] 3050/3652 errors=8 5.3 items/s
+  [decider/when2call] 3100/3652 errors=8 5.3 items/s
+  [decider/when2call] 3150/3652 errors=8 5.3 items/s
+  [decider/when2call] 3200/3652 errors=8 5.3 items/s
+  [decider/when2call] 3250/3652 errors=8 5.3 items/s
+  [decider/when2call] 3300/3652 errors=8 5.3 items/s
+  [decider/when2call] 3350/3652 errors=9 5.3 items/s
+  [decider/when2call] 3400/3652 errors=9 5.3 items/s
+  [decider/when2call] 3450/3652 errors=9 5.3 items/s
+  [decider/when2call] 3500/3652 errors=9 5.3 items/s
+  [decider/when2call] 3550/3652 errors=9 5.3 items/s
+  [decider/when2call] 3600/3652 errors=10 5.3 items/s
+  [decider/when2call] 3650/3652 errors=10 5.3 items/s
+  [decider/when2call] 3652/3652 errors=10 5.3 items/s
+[decider] banking77: 3080 items -> /opt/bench/results/full-2026-10-05/decider/banking77
+  [decider/banking77] 50/3080 errors=0 6.4 items/s
+  [decider/banking77] 100/3080 errors=0 6.5 items/s
+  [decider/banking77] 150/3080 errors=0 6.5 items/s
+  [decider/banking77] 200/3080 errors=0 6.5 items/s
+  [decider/banking77] 250/3080 errors=0 6.4 items/s
+  [decider/banking77] 300/3080 errors=0 6.5 items/s
+  [decider/banking77] 350/3080 errors=0 6.5 items/s
+  [decider/banking77] 400/3080 errors=0 6.5 items/s
+  [decider/banking77] 450/3080 errors=0 6.5 items/s
+  [decider/banking77] 500/3080 errors=0 6.5 items/s
+  [decider/banking77] 550/3080 errors=0 6.5 items/s
+  [decider/banking77] 600/3080 errors=0 6.5 items/s
+  [decider/banking77] 650/3080 errors=0 6.5 items/s
+  [decider/banking77] 700/3080 errors=0 6.4 items/s
+  [decider/banking77] 750/3080 errors=0 6.5 items/s
+  [decider/banking77] 800/3080 errors=0 6.4 items/s
+  [decider/banking77] 850/3080 errors=0 6.4 items/s
+  [decider/banking77] 900/3080 errors=0 6.4 items/s
+  [decider/banking77] 950/3080 errors=0 6.5 items/s
+  [decider/banking77] 1000/3080 errors=0 6.5 items/s
+  [decider/banking77] 1050/3080 errors=0 6.5 items/s
+  [decider/banking77] 1100/3080 errors=0 6.5 items/s
+  [decider/banking77] 1150/3080 errors=0 6.5 items/s
+  [decider/banking77] 1200/3080 errors=0 6.5 items/s
+  [decider/banking77] 1250/3080 errors=0 6.5 items/s
+  [decider/banking77] 1300/3080 errors=0 6.5 items/s
+  [decider/banking77] 1350/3080 errors=0 6.5 items/s
+  [decider/banking77] 1400/3080 errors=0 6.5 items/s
+  [decider/banking77] 1450/3080 errors=0 6.5 items/s
+  [decider/banking77] 1500/3080 errors=0 6.5 items/s
+  [decider/banking77] 1550/3080 errors=0 6.5 items/s
+  [decider/banking77] 1600/3080 errors=0 6.5 items/s
+  [decider/banking77] 1650/3080 errors=0 6.5 items/s
+  [decider/banking77] 1700/3080 errors=0 6.5 items/s
+  [decider/banking77] 1750/3080 errors=0 6.5 items/s
+  [decider/banking77] 1800/3080 errors=0 6.5 items/s
+  [decider/banking77] 1850/3080 errors=0 6.5 items/s
+  [decider/banking77] 1900/3080 errors=0 6.5 items/s
+  [decider/banking77] 1950/3080 errors=0 6.5 items/s
+  [decider/banking77] 2000/3080 errors=0 6.5 items/s
+  [decider/banking77] 2050/3080 errors=0 6.5 items/s
+  [decider/banking77] 2100/3080 errors=0 6.5 items/s
+  [decider/banking77] 2150/3080 errors=0 6.5 items/s
+  [decider/banking77] 2200/3080 errors=0 6.5 items/s
+  [decider/banking77] 2250/3080 errors=0 6.5 items/s
+  [decider/banking77] 2300/3080 errors=0 6.5 items/s
+  [decider/banking77] 2350/3080 errors=0 6.5 items/s
+  [decider/banking77] 2400/3080 errors=0 6.5 items/s
+  [decider/banking77] 2450/3080 errors=0 6.5 items/s
+  [decider/banking77] 2500/3080 errors=0 6.5 items/s
+  [decider/banking77] 2550/3080 errors=0 6.5 items/s
+  [decider/banking77] 2600/3080 errors=0 6.5 items/s
+  [decider/banking77] 2650/3080 errors=0 6.5 items/s
+  [decider/banking77] 2700/3080 errors=0 6.5 items/s
+  [decider/banking77] 2750/3080 errors=0 6.5 items/s
+  [decider/banking77] 2800/3080 errors=0 6.5 items/s
+  [decider/banking77] 2850/3080 errors=0 6.5 items/s
+  [decider/banking77] 2900/3080 errors=0 6.5 items/s
+  [decider/banking77] 2950/3080 errors=0 6.5 items/s
+  [decider/banking77] 3000/3080 errors=0 6.5 items/s
+  [decider/banking77] 3050/3080 errors=0 6.5 items/s
+  [decider/banking77] 3080/3080 errors=0 6.5 items/s
+[decider] clinc: 5500 items -> /opt/bench/results/full-2026-10-05/decider/clinc
+  [decider/clinc] 50/5500 errors=0 4.2 items/s
+  [decider/clinc] 100/5500 errors=0 4.2 items/s
+  [decider/clinc] 150/5500 errors=0 4.2 items/s
+  [decider/clinc] 200/5500 errors=0 4.2 items/s
+  [decider/clinc] 250/5500 errors=0 4.2 items/s
+  [decider/clinc] 300/5500 errors=0 4.2 items/s
+  [decider/clinc] 350/5500 errors=0 4.2 items/s
+  [decider/clinc] 400/5500 errors=0 4.2 items/s
+  [decider/clinc] 450/5500 errors=0 4.2 items/s
+  [decider/clinc] 500/5500 errors=0 4.2 items/s
+  [decider/clinc] 550/5500 errors=0 4.2 items/s
+  [decider/clinc] 600/5500 errors=0 4.2 items/s
+  [decider/clinc] 650/5500 errors=0 4.2 items/s
+  [decider/clinc] 700/5500 errors=0 4.2 items/s
+  [decider/clinc] 750/5500 errors=0 4.2 items/s
+  [decider/clinc] 800/5500 errors=0 4.2 items/s
+  [decider/clinc] 850/5500 errors=0 4.2 items/s
+  [decider/clinc] 900/5500 errors=0 4.2 items/s
+  [decider/clinc] 950/5500 errors=0 4.2 items/s
+  [decider/clinc] 1000/5500 errors=0 4.2 items/s
+  [decider/clinc] 1050/5500 errors=0 4.2 items/s
+  [decider/clinc] 1100/5500 errors=0 4.2 items/s
+  [decider/clinc] 1150/5500 errors=0 4.2 items/s
+  [decider/clinc] 1200/5500 errors=0 4.2 items/s
+  [decider/clinc] 1250/5500 errors=0 4.2 items/s
+  [decider/clinc] 1300/5500 errors=0 4.2 items/s
+  [decider/clinc] 1350/5500 errors=0 4.2 items/s
+  [decider/clinc] 1400/5500 errors=0 4.2 items/s
+  [decider/clinc] 1450/5500 errors=0 4.2 items/s
+  [decider/clinc] 1500/5500 errors=0 4.2 items/s
+  [decider/clinc] 1550/5500 errors=0 4.2 items/s
+  [decider/clinc] 1600/5500 errors=0 4.2 items/s
+  [decider/clinc] 1650/5500 errors=0 4.2 items/s
+  [decider/clinc] 1700/5500 errors=0 4.2 items/s
+  [decider/clinc] 1750/5500 errors=0 4.2 items/s
+  [decider/clinc] 1800/5500 errors=0 4.2 items/s
+  [decider/clinc] 1850/5500 errors=0 4.2 items/s
+  [decider/clinc] 1900/5500 errors=0 4.2 items/s
+  [decider/clinc] 1950/5500 errors=0 4.2 items/s
+  [decider/clinc] 2000/5500 errors=0 4.2 items/s
+  [decider/clinc] 2050/5500 errors=0 4.2 items/s
+  [decider/clinc] 2100/5500 errors=0 4.2 items/s
+  [decider/clinc] 2150/5500 errors=0 4.2 items/s
+  [decider/clinc] 2200/5500 errors=0 4.2 items/s
+  [decider/clinc] 2250/5500 errors=0 4.2 items/s
+  [decider/clinc] 2300/5500 errors=0 4.2 items/s
+  [decider/clinc] 2350/5500 errors=0 4.2 items/s
+  [decider/clinc] 2400/5500 errors=0 4.2 items/s
+  [decider/clinc] 2450/5500 errors=0 4.2 items/s
+  [decider/clinc] 2500/5500 errors=0 4.2 items/s
+  [decider/clinc] 2550/5500 errors=0 4.2 items/s
+  [decider/clinc] 2600/5500 errors=0 4.2 items/s
+  [decider/clinc] 2650/5500 errors=0 4.2 items/s
+  [decider/clinc] 2700/5500 errors=0 4.2 items/s
+  [decider/clinc] 2750/5500 errors=0 4.2 items/s
+  [decider/clinc] 2800/5500 errors=0 4.2 items/s
+  [decider/clinc] 2850/5500 errors=0 4.2 items/s
+  [decider/clinc] 2900/5500 errors=0 4.2 items/s
+  [decider/clinc] 2950/5500 errors=0 4.2 items/s
+  [decider/clinc] 3000/5500 errors=0 4.2 items/s
+  [decider/clinc] 3050/5500 errors=0 4.2 items/s
+  [decider/clinc] 3100/5500 errors=0 4.2 items/s
+  [decider/clinc] 3150/5500 errors=0 4.2 items/s
+  [decider/clinc] 3200/5500 errors=0 4.2 items/s
+  [decider/clinc] 3250/5500 errors=0 4.2 items/s
+  [decider/clinc] 3300/5500 errors=0 4.2 items/s
+  [decider/clinc] 3350/5500 errors=0 4.2 items/s
+  [decider/clinc] 3400/5500 errors=0 4.2 items/s
+  [decider/clinc] 3450/5500 errors=0 4.2 items/s
+  [decider/clinc] 3500/5500 errors=0 4.2 items/s
+  [decider/clinc] 3550/5500 errors=0 4.2 items/s
+  [decider/clinc] 3600/5500 errors=0 4.2 items/s
+  [decider/clinc] 3650/5500 errors=0 4.2 items/s
+  [decider/clinc] 3700/5500 errors=0 4.2 items/s
+  [decider/clinc] 3750/5500 errors=0 4.2 items/s
+  [decider/clinc] 3800/5500 errors=0 4.2 items/s
+  [decider/clinc] 3850/5500 errors=0 4.2 items/s
+  [decider/clinc] 3900/5500 errors=0 4.2 items/s
+  [decider/clinc] 3950/5500 errors=0 4.2 items/s
+  [decider/clinc] 4000/5500 errors=0 4.2 items/s
+  [decider/clinc] 4050/5500 errors=0 4.2 items/s
+  [decider/clinc] 4100/5500 errors=0 4.2 items/s
+  [decider/clinc] 4150/5500 errors=0 4.2 items/s
+  [decider/clinc] 4200/5500 errors=0 4.2 items/s
+  [decider/clinc] 4250/5500 errors=0 4.2 items/s
+  [decider/clinc] 4300/5500 errors=0 4.2 items/s
+  [decider/clinc] 4350/5500 errors=0 4.2 items/s
+  [decider/clinc] 4400/5500 errors=0 4.2 items/s
+  [decider/clinc] 4450/5500 errors=0 4.2 items/s
+  [decider/clinc] 4500/5500 errors=0 4.2 items/s
+  [decider/clinc] 4550/5500 errors=0 4.2 items/s
+  [decider/clinc] 4600/5500 errors=0 4.2 items/s
+  [decider/clinc] 4650/5500 errors=0 4.2 items/s
+  [decider/clinc] 4700/5500 errors=0 4.2 items/s
+  [decider/clinc] 4750/5500 errors=0 4.2 items/s
+  [decider/clinc] 4800/5500 errors=0 4.2 items/s
+  [decider/clinc] 4850/5500 errors=0 4.2 items/s
+  [decider/clinc] 4900/5500 errors=0 4.2 items/s
+  [decider/clinc] 4950/5500 errors=0 4.2 items/s
+  [decider/clinc] 5000/5500 errors=0 4.2 items/s
+  [decider/clinc] 5050/5500 errors=0 4.2 items/s
+  [decider/clinc] 5100/5500 errors=0 4.2 items/s
+  [decider/clinc] 5150/5500 errors=0 4.2 items/s
+  [decider/clinc] 5200/5500 errors=0 4.2 items/s
+  [decider/clinc] 5250/5500 errors=0 4.2 items/s
+  [decider/clinc] 5300/5500 errors=0 4.2 items/s
+  [decider/clinc] 5350/5500 errors=0 4.2 items/s
+  [decider/clinc] 5400/5500 errors=0 4.2 items/s
+  [decider/clinc] 5450/5500 errors=0 4.2 items/s
+  [decider/clinc] 5500/5500 errors=0 4.2 items/s
+[decider] injection: 116 items -> /opt/bench/results/full-2026-10-05/decider/injection
+  [decider/injection] 50/116 errors=0 14.6 items/s
+  [decider/injection] 100/116 errors=0 14.6 items/s
+  [decider/injection] 116/116 errors=0 14.6 items/s
+[decider] halueval: 1000 items -> /opt/bench/results/full-2026-10-05/decider/halueval
+  [decider/halueval] 50/1000 errors=0 14.3 items/s
+  [decider/halueval] 100/1000 errors=0 14.4 items/s
+  [decider/halueval] 150/1000 errors=0 14.4 items/s
+  [decider/halueval] 200/1000 errors=0 14.3 items/s
+  [decider/halueval] 250/1000 errors=0 14.4 items/s
+  [decider/halueval] 300/1000 errors=0 14.3 items/s
+  [decider/halueval] 350/1000 errors=0 14.4 items/s
+  [decider/halueval] 400/1000 errors=0 14.4 items/s
+  [decider/halueval] 450/1000 errors=0 14.4 items/s
+  [decider/halueval] 500/1000 errors=0 14.4 items/s
+  [decider/halueval] 550/1000 errors=0 14.4 items/s
+  [decider/halueval] 600/1000 errors=0 14.4 items/s
+  [decider/halueval] 650/1000 errors=0 14.4 items/s
+  [decider/halueval] 700/1000 errors=0 14.4 items/s
+  [decider/halueval] 750/1000 errors=0 14.4 items/s
+  [decider/halueval] 800/1000 errors=0 14.4 items/s
+  [decider/halueval] 850/1000 errors=0 14.4 items/s
+  [decider/halueval] 900/1000 errors=0 14.4 items/s
+  [decider/halueval] 950/1000 errors=0 14.4 items/s
+  [decider/halueval] 1000/1000 errors=0 14.4 items/s
+[decider] when2call__labeled: 3652 items -> /opt/bench/results/full-2026-10-05/decider/when2call__labeled
+  [decider/when2call] 50/3652 errors=0 5.3 items/s
+  [decider/when2call] 100/3652 errors=0 5.2 items/s
+  [decider/when2call] 150/3652 errors=0 5.0 items/s
+  [decider/when2call] 200/3652 errors=0 5.0 items/s
+  [decider/when2call] 250/3652 errors=0 5.0 items/s
+  [decider/when2call] 300/3652 errors=0 5.0 items/s
+  [decider/when2call] 350/3652 errors=0 5.0 items/s
+  [decider/when2call] 400/3652 errors=0 5.0 items/s
+  [decider/when2call] 450/3652 errors=0 4.9 items/s
+  [decider/when2call] 500/3652 errors=1 5.0 items/s
+  [decider/when2call] 550/3652 errors=1 5.0 items/s
+  [decider/when2call] 600/3652 errors=1 5.0 items/s
+  [decider/when2call] 650/3652 errors=1 5.0 items/s
+  [decider/when2call] 700/3652 errors=1 5.0 items/s
+  [decider/when2call] 750/3652 errors=1 5.1 items/s
+  [decider/when2call] 800/3652 errors=1 5.1 items/s
+  [decider/when2call] 850/3652 errors=1 5.1 items/s
+  [decider/when2call] 900/3652 errors=2 5.2 items/s
+  [decider/when2call] 950/3652 errors=2 5.2 items/s
+  [decider/when2call] 1000/3652 errors=2 5.1 items/s
+  [decider/when2call] 1050/3652 errors=2 5.2 items/s
+  [decider/when2call] 1100/3652 errors=2 5.2 items/s
+  [decider/when2call] 1150/3652 errors=3 5.2 items/s
+  [decider/when2call] 1200/3652 errors=3 5.2 items/s
+  [decider/when2call] 1250/3652 errors=3 5.2 items/s
+  [decider/when2call] 1300/3652 errors=5 5.2 items/s
+  [decider/when2call] 1350/3652 errors=5 5.3 items/s
+  [decider/when2call] 1400/3652 errors=5 5.3 items/s
+  [decider/when2call] 1450/3652 errors=5 5.3 items/s
+  [decider/when2call] 1500/3652 errors=5 5.2 items/s
+  [decider/when2call] 1550/3652 errors=5 5.2 items/s
+  [decider/when2call] 1600/3652 errors=5 5.2 items/s
+  [decider/when2call] 1650/3652 errors=5 5.2 items/s
+  [decider/when2call] 1700/3652 errors=5 5.2 items/s
+  [decider/when2call] 1750/3652 errors=5 5.2 items/s
+  [decider/when2call] 1800/3652 errors=5 5.2 items/s
+  [decider/when2call] 1850/3652 errors=5 5.2 items/s
+  [decider/when2call] 1900/3652 errors=5 5.2 items/s
+  [decider/when2call] 1950/3652 errors=5 5.2 items/s
+  [decider/when2call] 2000/3652 errors=5 5.2 items/s
+  [decider/when2call] 2050/3652 errors=5 5.2 items/s
+  [decider/when2call] 2100/3652 errors=5 5.2 items/s
+  [decider/when2call] 2150/3652 errors=6 5.2 items/s
+  [decider/when2call] 2200/3652 errors=6 5.1 items/s
+  [decider/when2call] 2250/3652 errors=6 5.1 items/s
+  [decider/when2call] 2300/3652 errors=6 5.1 items/s
+  [decider/when2call] 2350/3652 errors=6 5.1 items/s
+  [decider/when2call] 2400/3652 errors=6 5.2 items/s
+  [decider/when2call] 2450/3652 errors=6 5.2 items/s
+  [decider/when2call] 2500/3652 errors=7 5.2 items/s
+  [decider/when2call] 2550/3652 errors=7 5.2 items/s
+  [decider/when2call] 2600/3652 errors=7 5.2 items/s
+  [decider/when2call] 2650/3652 errors=8 5.2 items/s
+  [decider/when2call] 2700/3652 errors=8 5.2 items/s
+  [decider/when2call] 2750/3652 errors=8 5.2 items/s
+  [decider/when2call] 2800/3652 errors=8 5.2 items/s
+  [decider/when2call] 2850/3652 errors=8 5.2 items/s
+  [decider/when2call] 2900/3652 errors=8 5.2 items/s
+  [decider/when2call] 2950/3652 errors=8 5.2 items/s
+  [decider/when2call] 3000/3652 errors=8 5.2 items/s
+  [decider/when2call] 3050/3652 errors=8 5.2 items/s
+  [decider/when2call] 3100/3652 errors=8 5.2 items/s
+  [decider/when2call] 3150/3652 errors=8 5.2 items/s
+  [decider/when2call] 3200/3652 errors=8 5.2 items/s
+  [decider/when2call] 3250/3652 errors=8 5.2 items/s
+  [decider/when2call] 3300/3652 errors=8 5.2 items/s
+  [decider/when2call] 3350/3652 errors=9 5.2 items/s
+  [decider/when2call] 3400/3652 errors=9 5.2 items/s
+  [decider/when2call] 3450/3652 errors=9 5.2 items/s
+  [decider/when2call] 3500/3652 errors=9 5.2 items/s
+  [decider/when2call] 3550/3652 errors=9 5.2 items/s
+  [decider/when2call] 3600/3652 errors=10 5.2 items/s
+  [decider/when2call] 3650/3652 errors=10 5.2 items/s
+  [decider/when2call] 3652/3652 errors=10 5.2 items/s
+[decider] injection__paraphrase: 116 items -> /opt/bench/results/full-2026-10-05/decider/injection__paraphrase
+  [decider/injection] 50/116 errors=0 14.4 items/s
+  [decider/injection] 100/116 errors=0 14.1 items/s
+  [decider/injection] 116/116 errors=0 14.1 items/s
+{"status":"ok","model":"strands-decider-2B-hobson-v19","checkpoint":"StrandsAgents/strands-decider-2B-hobson-v19","base_model":"Qwen/Qwen3.5-2B-Base","num_slots":24,"max_length":4096,"temperature":0.9627721607677362,"device":"cuda","prefix_cache":true,"vision":false}
+[jevbench] adapter=typesafe endpoint=http://127.0.0.1:8099 tasks=231 cap=$15.0 ledger=/opt/bench/results/full-2026-10-05/decider/jevbench/ledger.jsonl
+10/231 completed
+20/231 completed
+30/231 completed
+40/231 completed
+50/231 completed
+60/231 completed
+70/231 completed
+80/231 completed
+90/231 completed
+100/231 completed
+110/231 completed
+120/231 completed
+130/231 completed
+140/231 completed
+150/231 completed
+160/231 completed
+170/231 completed
+180/231 completed
+190/231 completed
+200/231 completed
+210/231 completed
+220/231 completed
+230/231 completed
+[jevbench] done: 231/231 attempted, 0 failed; charged=$0.0000
+[jevbench] public export -> /opt/bench/results/full-2026-10-05/decider/jevbench/summary.json
+          }
+        ],
+        "ece": 0.04586839826839823,
+        "n": 231
+      },
+      "latency": {
+        "n": 231,
+        "p50_s": 0.07008411700007855,
+        "p95_s": 0.4580342589997599
+      },
+      "latency_failures": {
+        "n": 0,
+        "p50_s": null,
+        "p95_s": null
+      },
+      "n_attempted": 231,
+      "n_correct": 168,
+      "n_planned": 231,
+      "n_renormalized": 0,
+      "n_scorable": 231,
+      "n_valid": 231,
+      "operational_success": 1.0,
+      "ordinal_mae": 0.532,
+      "price_per_1000_decisions_usd": null,
+      "schema_validity": 1.0,
+      "schema_validity_strict": 1.0
+    }
+  },
+  "version": "jevbench-v1"
+}
+[decider] banking77: 200 items -> /opt/bench/results/latency-2026-10-05/decider/banking77
+  [decider/banking77] 50/200 errors=0 6.5 items/s
+  [decider/banking77] 100/200 errors=0 6.5 items/s
+  [decider/banking77] 150/200 errors=0 6.5 items/s
+  [decider/banking77] 200/200 errors=0 6.5 items/s
+DONE decider

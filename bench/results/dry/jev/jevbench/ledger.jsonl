@@ -1,0 +1,21 @@
+{"event": "cap", "cap_usd": 2.0, "ts": 1791177522.006}
+{"event": "reserve", "reservation_id": "c2fedad9a4e9417085c7a7888a18f766", "reserved_usd": 0.02, "ts": 1791177522.010311, "meta": {"task_id": "original-policy-01-0", "adapter": "typesafe"}}
+{"event": "settle", "reservation_id": "c2fedad9a4e9417085c7a7888a18f766", "charged_usd": 1.4784000000000001e-05, "ts": 1791177522.3421888, "meta": {"task_id": "original-policy-01-0", "basis": "derived_usage_times_tariff"}}
+{"event": "reserve", "reservation_id": "f89f536ba46d4d6abf19e36e9ed8f297", "reserved_usd": 0.02, "ts": 1791177522.349588, "meta": {"task_id": "original-policy-01-1", "adapter": "typesafe"}}
+{"event": "settle", "reservation_id": "f89f536ba46d4d6abf19e36e9ed8f297", "charged_usd": 1.491e-05, "ts": 1791177522.7218113, "meta": {"task_id": "original-policy-01-1", "basis": "derived_usage_times_tariff"}}
+{"event": "reserve", "reservation_id": "469556d612b249dd8214d283f6feb7af", "reserved_usd": 0.02, "ts": 1791177522.7327118, "meta": {"task_id": "original-policy-02-0", "adapter": "typesafe"}}
+{"event": "settle", "reservation_id": "469556d612b249dd8214d283f6feb7af", "charged_usd": 1.4322000000000001e-05, "ts": 1791177523.071799, "meta": {"task_id": "original-policy-02-0", "basis": "derived_usage_times_tariff"}}
+{"event": "reserve", "reservation_id": "44478f304f6941b981e9b6ec959737ae", "reserved_usd": 0.02, "ts": 1791177523.0821507, "meta": {"task_id": "original-policy-02-1", "adapter": "typesafe"}}
+{"event": "settle", "reservation_id": "44478f304f6941b981e9b6ec959737ae", "charged_usd": 1.428e-05, "ts": 1791177523.4453297, "meta": {"task_id": "original-policy-02-1", "basis": "derived_usage_times_tariff"}}
+{"event": "reserve", "reservation_id": "f63675ed55f44a5dba5bbf29a9e50d59", "reserved_usd": 0.02, "ts": 1791177523.4525132, "meta": {"task_id": "original-policy-03-0", "adapter": "typesafe"}}
+{"event": "settle", "reservation_id": "f63675ed55f44a5dba5bbf29a9e50d59", "charged_usd": 1.4406e-05, "ts": 1791177523.7759027, "meta": {"task_id": "original-policy-03-0", "basis": "derived_usage_times_tariff"}}
+{"event": "reserve", "reservation_id": "9acabf909d344aac85dc95d046c5e09d", "reserved_usd": 0.02, "ts": 1791177523.835736, "meta": {"task_id": "original-policy-03-1", "adapter": "typesafe"}}
+{"event": "settle", "reservation_id": "9acabf909d344aac85dc95d046c5e09d", "charged_usd": 1.4364e-05, "ts": 1791177524.216142, "meta": {"task_id": "original-policy-03-1", "basis": "derived_usage_times_tariff"}}
+{"event": "reserve", "reservation_id": "2f36be7d828249849e9db4b6ea04879e", "reserved_usd": 0.02, "ts": 1791177524.2272851, "meta": {"task_id": "original-policy-04-0", "adapter": "typesafe"}}
+{"event": "settle", "reservation_id": "2f36be7d828249849e9db4b6ea04879e", "charged_usd": 1.4658000000000001e-05, "ts": 1791177524.6363583, "meta": {"task_id": "original-policy-04-0", "basis": "derived_usage_times_tariff"}}
+{"event": "reserve", "reservation_id": "5b53a21630dd4426816042da0084827f", "reserved_usd": 0.02, "ts": 1791177524.6447012, "meta": {"task_id": "original-policy-04-1", "adapter": "typesafe"}}
+{"event": "settle", "reservation_id": "5b53a21630dd4426816042da0084827f", "charged_usd": 1.4532e-05, "ts": 1791177524.9760475, "meta": {"task_id": "original-policy-04-1", "basis": "derived_usage_times_tariff"}}
+{"event": "reserve", "reservation_id": "884353ea3a4440ba9b9e47be1f832dae", "reserved_usd": 0.02, "ts": 1791177524.9841235, "meta": {"task_id": "original-policy-05-0", "adapter": "typesafe"}}
+{"event": "settle", "reservation_id": "884353ea3a4440ba9b9e47be1f832dae", "charged_usd": 1.4826e-05, "ts": 1791177525.3291972, "meta": {"task_id": "original-policy-05-0", "basis": "derived_usage_times_tariff"}}
+{"event": "reserve", "reservation_id": "74a9c5c97d9645bdba6f2b3cf1632286", "reserved_usd": 0.02, "ts": 1791177525.3370335, "meta": {"task_id": "original-policy-05-1", "adapter": "typesafe"}}
+{"event": "settle", "reservation_id": "74a9c5c97d9645bdba6f2b3cf1632286", "charged_usd": 1.4532e-05, "ts": 1791177525.6357877, "meta": {"task_id": "original-policy-05-1", "basis": "derived_usage_times_tariff"}}

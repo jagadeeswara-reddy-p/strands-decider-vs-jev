@@ -1,0 +1,22 @@
+# upstream clones (referenced by URL + commit in the README, not vendored)
+/repo/
+/play-jev-tictactoe/
+
+# local tool state
+/.claude/
+
+# terraform: state and plans hold account/instance details; providers are re-downloaded
+infra/.terraform/
+infra/*.tfstate
+infra/*.tfstate.*
+infra/tfplan
+infra/*.tfplan
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# secrets, just in case
+.env
+*.env

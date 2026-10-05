@@ -1,0 +1,50 @@
+#!/bin/bash
+# Bootstraps the strands-decider server on a Deep Learning Base AMI. Logs: /var/log/strands-decider-setup.log
+set -euxo pipefail
+exec > >(tee -a /var/log/strands-decider-setup.log) 2>&1
+
+%{ if auto_stop_minutes > 0 ~}
+# Re-arms on every boot (user data itself only runs on the first one).
+cat > /etc/systemd/system/strands-decider-autostop.service <<'UNIT'
+[Unit]
+Description=Stop this instance ${auto_stop_minutes} minutes after boot
+
+[Service]
+Type=oneshot
+ExecStart=/sbin/shutdown -h +${auto_stop_minutes} "strands-decider eval auto-stop"
+
+[Install]
+WantedBy=multi-user.target
+UNIT
+systemctl daemon-reload
+systemctl enable --now strands-decider-autostop
+%{ endif ~}
+
+export HOME=/root
+curl -LsSf https://astral.sh/uv/install.sh | env UV_INSTALL_DIR=/usr/local/bin sh
+
+mkdir -p /opt/strands-decider /opt/hf-cache
+uv venv --python 3.12 /opt/strands-decider/.venv
+uv pip install --python /opt/strands-decider/.venv/bin/python %{ for p in packages }"${p}" %{ endfor }
+# Fail setup loudly rather than let transformers silently fall back to the reference PyTorch kernels.
+/opt/strands-decider/.venv/bin/python -c "import fla; print('flash-linear-attention', fla.__version__)"
+
+cat > /etc/systemd/system/strands-decider.service <<'UNIT'
+[Unit]
+Description=strands-decider server
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+Environment=HF_HOME=/opt/hf-cache
+ExecStart=/opt/strands-decider/.venv/bin/strands-decider serve ${checkpoint} --host 127.0.0.1 --port ${port} --device cuda --strict-window
+Restart=on-failure
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target
+UNIT
+
+systemctl daemon-reload
+systemctl enable --now strands-decider
+echo "strands-decider setup done"

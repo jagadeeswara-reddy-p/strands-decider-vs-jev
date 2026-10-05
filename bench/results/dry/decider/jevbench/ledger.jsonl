@@ -1,0 +1,21 @@
+{"event": "cap", "cap_usd": 15.0, "ts": 1791177594.8386495}
+{"event": "reserve", "reservation_id": "7906a285c8434453b40febf2c0cfa3c8", "reserved_usd": 0.0, "ts": 1791177594.8439023, "meta": {"task_id": "original-policy-01-0", "adapter": "typesafe"}}
+{"event": "settle", "reservation_id": "7906a285c8434453b40febf2c0cfa3c8", "charged_usd": 0.0, "ts": 1791177595.19942, "meta": {"task_id": "original-policy-01-0", "basis": "self_hosted_ec2_g6xlarge"}}
+{"event": "reserve", "reservation_id": "33a2351864024700833468794c9084b5", "reserved_usd": 0.0, "ts": 1791177595.2092857, "meta": {"task_id": "original-policy-01-1", "adapter": "typesafe"}}
+{"event": "settle", "reservation_id": "33a2351864024700833468794c9084b5", "charged_usd": 0.0, "ts": 1791177595.563, "meta": {"task_id": "original-policy-01-1", "basis": "self_hosted_ec2_g6xlarge"}}
+{"event": "reserve", "reservation_id": "c41f831c5ded4be5bd3b58ea71d54abb", "reserved_usd": 0.0, "ts": 1791177595.5706546, "meta": {"task_id": "original-policy-02-0", "adapter": "typesafe"}}
+{"event": "settle", "reservation_id": "c41f831c5ded4be5bd3b58ea71d54abb", "charged_usd": 0.0, "ts": 1791177596.0038166, "meta": {"task_id": "original-policy-02-0", "basis": "self_hosted_ec2_g6xlarge"}}
+{"event": "reserve", "reservation_id": "11d10ecbbc7c4c25808e92be4ecaf08a", "reserved_usd": 0.0, "ts": 1791177596.0115907, "meta": {"task_id": "original-policy-02-1", "adapter": "typesafe"}}
+{"event": "settle", "reservation_id": "11d10ecbbc7c4c25808e92be4ecaf08a", "charged_usd": 0.0, "ts": 1791177596.3616803, "meta": {"task_id": "original-policy-02-1", "basis": "self_hosted_ec2_g6xlarge"}}
+{"event": "reserve", "reservation_id": "49f9eda7b66d45dc818798dd1557734a", "reserved_usd": 0.0, "ts": 1791177596.369114, "meta": {"task_id": "original-policy-03-0", "adapter": "typesafe"}}
+{"event": "settle", "reservation_id": "49f9eda7b66d45dc818798dd1557734a", "charged_usd": 0.0, "ts": 1791177596.7209728, "meta": {"task_id": "original-policy-03-0", "basis": "self_hosted_ec2_g6xlarge"}}
+{"event": "reserve", "reservation_id": "bb47c2241f58472398ca5347e4ed776d", "reserved_usd": 0.0, "ts": 1791177596.727978, "meta": {"task_id": "original-policy-03-1", "adapter": "typesafe"}}
+{"event": "settle", "reservation_id": "bb47c2241f58472398ca5347e4ed776d", "charged_usd": 0.0, "ts": 1791177597.0782068, "meta": {"task_id": "original-policy-03-1", "basis": "self_hosted_ec2_g6xlarge"}}
+{"event": "reserve", "reservation_id": "3929f17c7a7d4b0894585108382c05b3", "reserved_usd": 0.0, "ts": 1791177597.0851643, "meta": {"task_id": "original-policy-04-0", "adapter": "typesafe"}}
+{"event": "settle", "reservation_id": "3929f17c7a7d4b0894585108382c05b3", "charged_usd": 0.0, "ts": 1791177597.435002, "meta": {"task_id": "original-policy-04-0", "basis": "self_hosted_ec2_g6xlarge"}}
+{"event": "reserve", "reservation_id": "9e89280e8c4d4ceb854848a8058a9e69", "reserved_usd": 0.0, "ts": 1791177597.4440305, "meta": {"task_id": "original-policy-04-1", "adapter": "typesafe"}}
+{"event": "settle", "reservation_id": "9e89280e8c4d4ceb854848a8058a9e69", "charged_usd": 0.0, "ts": 1791177597.795656, "meta": {"task_id": "original-policy-04-1", "basis": "self_hosted_ec2_g6xlarge"}}
+{"event": "reserve", "reservation_id": "5c241403ddd940d08203ba0b25e1a528", "reserved_usd": 0.0, "ts": 1791177597.8030632, "meta": {"task_id": "original-policy-05-0", "adapter": "typesafe"}}
+{"event": "settle", "reservation_id": "5c241403ddd940d08203ba0b25e1a528", "charged_usd": 0.0, "ts": 1791177598.153717, "meta": {"task_id": "original-policy-05-0", "basis": "self_hosted_ec2_g6xlarge"}}
+{"event": "reserve", "reservation_id": "bb02f849246c456299c2e30e7d97d8e6", "reserved_usd": 0.0, "ts": 1791177598.1615367, "meta": {"task_id": "original-policy-05-1", "adapter": "typesafe"}}
+{"event": "settle", "reservation_id": "bb02f849246c456299c2e30e7d97d8e6", "charged_usd": 0.0, "ts": 1791177598.512181, "meta": {"task_id": "original-policy-05-1", "basis": "self_hosted_ec2_g6xlarge"}}
